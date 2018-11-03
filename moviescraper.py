@@ -48,6 +48,29 @@ def extract_movies(dom):
                 films[i].append(year)
             i += 0.5
 
+    actors = ""
+    i = 0
+    first = True
+    for link in dom.find_all("a"):
+        sort = link["href"]
+        if sort[-11:-1] == "adv_li_st_":
+            if sort[-1] != "0":
+                actors = actors + "," + link.string
+                # print(i)
+                # print(actors)
+            elif first:
+                actors = link.string
+                first = False
+            else:
+                films[i].append(actors)
+                i += 1
+                actors = link.string
+
+    films[i].append(actors)
+
+    # for film in films:
+    #     print(films)
+
     # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
     # HIGHEST RATED MOVIES
     # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
