@@ -39,6 +39,15 @@ def extract_movies(dom):
         films[i].append(rating["content"])
         i += 1
 
+    i = -0.5
+    for title in dom.find_all("h3"):
+        for span in title.find_all("span"):
+            if i < 50 and i % 1 == 0:
+                i = int(i)
+                year = span.string[-5:-1]
+                films[i].append(year)
+            i += 0.5
+
     # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
     # HIGHEST RATED MOVIES
     # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
