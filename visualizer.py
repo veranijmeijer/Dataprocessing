@@ -13,6 +13,11 @@ INPUT_CSV = "movies.csv"
 START_YEAR = 2008
 END_YEAR = 2018
 
+with open(INPUT_CSV, 'r') as csvfile:
+    reader = csv.reader(csvfile)
+    for row in reader:
+        print(row)
+
 # Global dictionary for the data
 data_dict = {str(key): [] for key in range(START_YEAR, END_YEAR)}
 
