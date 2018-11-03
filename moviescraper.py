@@ -68,8 +68,10 @@ def extract_movies(dom):
 
     films[i].append(actors)
 
-    # for film in films:
-    #     print(films)
+    i = 0
+    for runtime in dom.find_all("span", attrs={"class":"runtime"}):
+        films[i].append(runtime.string[:-4])
+        i += 1
 
     # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
     # HIGHEST RATED MOVIES
