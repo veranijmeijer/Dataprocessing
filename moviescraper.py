@@ -26,6 +26,14 @@ def extract_movies(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     """
+    films = []
+
+    for title in dom.find_all("h3"):
+        if len(films) < 50:
+            print(title.a.string)
+            films.append([title.a.string])
+
+    
 
     # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
     # HIGHEST RATED MOVIES
