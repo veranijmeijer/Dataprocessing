@@ -30,17 +30,21 @@ def extract_movies(dom):
 
     for title in dom.find_all("h3"):
         if len(films) < 50:
-            print(title.a.string)
+            # print(title.a.string)
             films.append([title.a.string])
 
-    
+    i = 0
+    for rating in dom.find_all(itemprop="ratingValue"):
+        # print(rating["content"])
+        films[i].append(rating["content"])
+        i += 1
 
     # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
     # HIGHEST RATED MOVIES
     # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
     # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
 
-    return []   # REPLACE THIS LINE AS WELL IF APPROPRIATE
+    return films   # REPLACE THIS LINE AS WELL IF APPROPRIATE
 
 
 def save_csv(outfile, movies):
@@ -49,6 +53,10 @@ def save_csv(outfile, movies):
     """
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Year', 'Actors', 'Runtime'])
+
+    for movie in movies:
+        writer.writerow(movie)
+
 
     # ADD SOME CODE OF YOURSELF HERE TO WRITE THE MOVIES TO DISK
 
