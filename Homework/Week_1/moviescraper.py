@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# Name:
-# Student number:
+# Name: Vera Nijmeijer
+# Student number: 10753567
 """
 This script scrapes IMDB and outputs a CSV file with highest rated movies.
 """
@@ -26,59 +26,59 @@ def extract_movies(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     """
-    films = []
 
-    for title in dom.find_all("h3"):
-        if len(films) < 50:
-            # print(title.a.string)
-            films.append([title.a.string])
+    movies = []
 
     i = 0
-    for rating in dom.find_all(itemprop="ratingValue"):
-        # print(rating["content"])
-        films[i].append(rating["content"])
+    for film in dom.find_all(attrs={"class":"lister-item-content"}):
+
+        # add title of movie to list if data is not missing
+        title = film.find("h3")
+        if title.a:
+            movies.append([title.a.string])
+        else:
+            movies.append([None])
+
+        # add rating of movie to list if data is not missing
+        rating = film.find(itemprop="ratingValue")
+        if rating:
+            movies[i].append(rating["content"])
+        else:
+            movies[i].append(None)
+
+        # add year of movie to list if data is not missing
+        year = film.find("span", attrs={"class":"lister-item-year"})
+        if year:
+            movies[i].append(year.string[-5:-1])
+        else:
+            movies[i].append(None)
+
+        # add actors of movie to list if data is not missing
+        actors = ""
+        for link in film.find_all("a"):
+            link_actor = link["href"]
+
+            # checks if this link is for stars, not the director
+            if link_actor[-4:-2] == "st":
+                if actors:
+                    actors = actors + "," + link.string
+                else:
+                    actors = link.string
+        if actors:
+            movies[i].append(actors)
+        else:
+            movies[i].append(None)
+
+        # add runtime of movie to list if data is not missing
+        runtime = film.find("span", attrs={"class":"runtime"})
+        if runtime:
+            movies[i].append(runtime.string[:-4])
+        else:
+            movies[i].append(None)
+
         i += 1
 
-    i = -0.5
-    for title in dom.find_all("h3"):
-        for span in title.find_all("span"):
-            if i < 50 and i % 1 == 0:
-                i = int(i)
-                year = span.string[-5:-1]
-                films[i].append(year)
-            i += 0.5
-
-    actors = ""
-    i = 0
-    first = True
-    for link in dom.find_all("a"):
-        sort = link["href"]
-        if sort[-11:-1] == "adv_li_st_":
-            if sort[-1] != "0":
-                actors = actors + "," + link.string
-                # print(i)
-                # print(actors)
-            elif first:
-                actors = link.string
-                first = False
-            else:
-                films[i].append(actors)
-                i += 1
-                actors = link.string
-
-    films[i].append(actors)
-
-    i = 0
-    for runtime in dom.find_all("span", attrs={"class":"runtime"}):
-        films[i].append(runtime.string[:-4])
-        i += 1
-
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED MOVIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
-
-    return films   # REPLACE THIS LINE AS WELL IF APPROPRIATE
+    return movies
 
 
 def save_csv(outfile, movies):
@@ -88,11 +88,9 @@ def save_csv(outfile, movies):
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Year', 'Actors', 'Runtime'])
 
+    # adds movie information to csv file
     for movie in movies:
         writer.writerow(movie)
-
-
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE MOVIES TO DISK
 
 
 def simple_get(url):

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# Name:
-# Student number:
+# Name: Vera Nijmeijer
+# Student number: 10753567
 """
 This script visualizes data obtained from a .csv file
 """
@@ -18,26 +18,22 @@ data_dict = {str(key): [] for key in range(START_YEAR, END_YEAR)}
 
 with open(INPUT_CSV, 'r') as csvfile:
     reading = csv.DictReader(csvfile)
-    for row in reading:
-        # print(row["Rating"])
-        # print(row["Year"])
-        data_dict[row["Year"]].append(row["Rating"])
-        # print(row)
 
+    # add ratings to dictionary of that certain year
+    for row in reading:
+        data_dict[row["Year"]].append(row["Rating"])
+
+# calculate the average rating per year
 averages = []
 for key in data_dict:
-    total_movies = 0
-    total_rating = 0
+    total_movies, total_rating = 0, 0
     for rating in data_dict[key]:
         total_movies += 1
         total_rating += float(rating)
-    average = round(total_rating / total_movies, 1)
-    print(average)
-    averages.append(average)
+    averages.append(round(total_rating / total_movies, 1))
 
 if __name__ == "__main__":
-    # print(data_dict)
-
+    # make a line chart of the average rating per year
     plt.plot(range(START_YEAR, END_YEAR), averages)
     plt.title("IMDB Ratings")
     plt.ylabel("Average rating")
