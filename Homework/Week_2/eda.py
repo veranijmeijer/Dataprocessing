@@ -11,7 +11,8 @@ inputfile.readline()
 for row in inputfile:
     if row != "\n":
         print(row)
-        row_csv = [row.rstrip()]
+        row_csv = row.split()
+        print(row_csv)
         empty_column = False
         for column in row_csv:
             if not column:
