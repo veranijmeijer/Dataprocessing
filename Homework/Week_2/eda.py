@@ -1,32 +1,33 @@
 import csv
-import pandas
+from pandas import DataFrame
 
-clean_rows = []
+infile = "input.csv"
+columns = ["Country", "Region", "Pop. Density (per sq. mi.)", "Infant mortality (per 1000 births)", "GDP ($ per capita) dollars"]
 
-inputfile = open("input.csv", "r")
-outputfile = open("output.csv", "w")
+with open(infile) as input:
+    countries = csv.DictReader(input)
+    list_countries = []
 
-inputfile.readline()
+    for country in countries:
+        missing_info = False
+        for column in columns:
+            if not country[column]:
+                missing_info = True
+            elif not country[column]:
+                missing_info = True
+            elif not country[column]:
+                missing_info = True
+            elif not country[column]:
+                missing_info = True
+            elif not country[column]:
+                missing_info = True
 
-for row in inputfile:
-    if row != "\n":
-        print(row)
-        row_csv = row.split()
-        print(row_csv)
-        empty_column = False
-        for column in row_csv:
-            if not column:
-                empty_column = True
+        if not missing_info:
+            country_info = {}
+            for column in columns:
+                country_info[column] = country[column].strip()
 
-        if not empty_column:
-            clean_rows.append(row_csv)
+            list_countries.append(country_info)
 
-
-writer = csv.writer(outputfile)
-writer.writerow(['Country', 'Region', 'Population', 'Area (sq. mi.)', 'Pop. Density (per sq. mi.)', 'Coastline (coast/area ratio)', 'Net migration', 'Infant mortality (per 1000 births)', 'GDP ($ per capita) dollars', 'Literacy (%)', 'Phones (per 1000)', 'Arable (%)', 'Crops (%)', "Other (%)", "Climate", "Birthrate", "Deathrate", "Agriculture", "Industry", "Service"])
-for clean_row in clean_rows:
-    # print(clean_row)
-    writer.writerow(clean_row)
-
-inputfile.close()
-outputfile.close()
+data = DataFrame(list_countries, columns=columns)
+print(data)
