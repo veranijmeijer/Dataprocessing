@@ -32,6 +32,5 @@ def create_json(infile, outfile):
         with open(outfile, "w") as output:
             json.dump(dict_countries, output, indent=4)
 
-    return DataFrame(dict_countries, columns=columns)
-
 create_json("input.csv", "output.json")
+# print(data)
