@@ -1,25 +1,40 @@
+# Name: Vera Nijmeijer
+# Student ID: 10753567
+
 import csv
 import json
 
 def create_json(infile, outfile):
     # function loads data from csv (or txt) file to json file
+
     with open(infile) as input:
-        dict_dates = {}
-        for line in input:
-            if not line.strip().startswith("#"):
-                line = line.strip().split(',')
+        # saves first row as fieldnames
+        names = input.readline().strip().split(',')
+        fieldnames = []
+        dict_dates = []
 
-                dict_info = {}
-                names = ["DDVEC", "FHVEC", "FG", "FHX", "FHXH", "FHN", "FHNH", "FXX", "FXXH", "TG", "TN", "TNH", "TX", "TXH", "T10N", "T10NH", "SQ", "SP", "Q", "DR", "RH", "RHX", "RHXH", "PG", "PX", "PXH", "PN", "PNH", "VVN", "VVNH", "VVX", "VVXH", "NG", "UG", "UX", "UXH", "UN", "UNH", "EV24"]
+        # removes whitespace from fieldnames
+        for name in names:
+            fieldnames.append(name.strip())
 
-                index = 2
-                for name in names:
-                    dict_info[name] = line[index]
-                    index += 1
+        # extracts information from csv file into dictionary
+        dates = csv.DictReader(input, fieldnames=fieldnames)
 
-                dict_dates[line[1]] = dict_info
+        for date in dates:
+            date_info = {}
+            iterfieldnames = iter(fieldnames)
 
+            # skips first row (dictionary), because those are the fieldnames
+            next(iterfieldnames)
+
+            # makes dictionary with the information about this date
+            for fieldname in iterfieldnames:
+                date_info[fieldname] = date[fieldname].strip()
+
+            dict_dates.append(date_info)
+
+        # create JSON file
         with open(outfile, "w") as output:
             json.dump(dict_dates, output, indent=4)
 
-create_json("KNMI_20171231.txt", "output.json")
+create_json("KNMI_20171231.csv", "data.json")
