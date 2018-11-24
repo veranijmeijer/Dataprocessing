@@ -11,6 +11,8 @@ def parse(infile):
     with open(infile) as input:
         # creates dictionary of information in file
         countries = csv.DictReader(input)
+        for country in countries:
+            print(country["Country"])
         list_countries = []
 
         for country in countries:
