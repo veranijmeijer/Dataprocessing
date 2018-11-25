@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Renewable Energy</title>
+        <script type="text/javascript" src="d3/d3.v3.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+          d3.select("body").append("h4").text("Bar chart Renewable Energy");
+          d3.select("body").append("h5").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
+          d3.select("body").append("h6").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1960 and 2016.")
+
+          var fileName = "data.json";
+          var txtFile = new XMLHttpRequest();
+
+          // when the XMLHttpRequest is ready, the file is parsed
+          txtFile.onreadystatechange = function() {
+            if (txtFile.readyState === 4 && txtFile.status == 200) {
+              json = JSON.parse(txtFile.responseText);
+
+              var dataset = json;
+
+              d3.select("body").selectAll("p")
+                  .data(dataset)
+                  .enter()
+                  .append("p")
+                  .text(function (d) { return d['Value']; });
+              }
+            };
+
+            txtFile.open("GET", fileName);
+            txtFile.send();
+            // Your beautiful D3 code will go here
+        </script>
+    </body>
+</html>
