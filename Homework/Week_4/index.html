@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <title>Renewable Energy</title>
         <script type="text/javascript" src="d3/d3.v3.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <script type="text/javascript">
-          d3.select("body").append("h4").text("Bar chart Renewable Energy");
-          d3.select("body").append("h5").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
-          d3.select("body").append("h6").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1960 and 2016.")
+          d3.select("body").append("h1").text("Bar chart Renewable Energy");
+          d3.select("body").append("p").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
+          d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1960 and 2016.")
 
           var fileName = "data.json";
           var txtFile = new XMLHttpRequest();
@@ -25,7 +26,7 @@
                   .data(dataset)
                   .enter()
                   .append("p")
-                  .text(function (d) { return d['Value']; });
+                  .text(function (d) { return d["LOCATION"] + " " + d["TIME"] + " " + d['Value']; });
               }
             };
 
