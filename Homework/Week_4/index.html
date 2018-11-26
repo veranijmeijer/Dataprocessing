@@ -4,16 +4,27 @@
         <meta charset="utf-8">
         <title>Renewable Energy</title>
         <script type="text/javascript" src="d3/d3.v3.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <script type="text/javascript">
-          d3.select("body").append("h1").text("Bar chart Renewable Energy");
+          d3.select("body").append("h1").attr("class", "joe").text("Bar chart Renewable Energy");
           d3.select("body").append("p").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
           d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1960 and 2016.")
 
-          var fileName = "data.json";
+          var w = 750;
+          var h = 250;
+          var barPadding = 1;
+
+          var svg = d3.select("body")
+                      .append("svg")
+                      .attr("width", w)
+                      .attr("height", h);
+
+          var fileName = "data2.json";
           var txtFile = new XMLHttpRequest();
+          var list_year_KTOE = []
+          var list_year_PC_PRYENRGSUPPLY = []
 
           // when the XMLHttpRequest is ready, the file is parsed
           txtFile.onreadystatechange = function() {
@@ -21,12 +32,28 @@
               json = JSON.parse(txtFile.responseText);
 
               var dataset = json;
+              console.log(dataset)
+              svg.selectAll("rect")
+                 .data(dataset)
+                 .enter()
+                 .append("rect")
+                 .attr("x", function(d, i) {
+                    return i * (w / dataset.length);
+                 })
+                  .attr("y", function(d) {
 
-              d3.select("body").selectAll("p")
-                  .data(dataset)
-                  .enter()
-                  .append("p")
-                  .text(function (d) { return d["LOCATION"] + " " + d["TIME"] + " " + d['Value']; });
+                    return h - d["Value"] / 7500;
+                  })
+                  .attr("width", w / (dataset.length - barPadding))
+
+                  .attr("height", function(d) {
+                    console.log(d["Value"])
+                    return d["Value"] / 7500;
+                  })
+                  .attr("fill", function(d) {
+                    return "rgb(0, 0," + (d["Value"] * 10) + ")"
+                  });
+
               }
             };
 

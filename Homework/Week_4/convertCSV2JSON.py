@@ -21,13 +21,16 @@ def create_json(infile, outfile):
         dates = csv.DictReader(input, fieldnames=fieldnames)
 
         for date in dates:
-            date_info = {}
+            date["LOCATION"] = date["LOCATION"].strip()
+            if date["Value"] and date["LOCATION"] == "WLD" and date["MEASURE"] == "KTOE":
+                date_info = {}
 
-            # makes dictionary with the information about this date
-            for fieldname in fieldnames:
-                date_info[fieldname] = date[fieldname].strip()
 
-            dict_dates.append(date_info)
+                # makes dictionary with the information about this date
+                for fieldname in fieldnames:
+                    date_info[fieldname] = date[fieldname].strip()
+
+                dict_dates.append(date_info)
 
         # create JSON file
         with open(outfile, "w") as output:
