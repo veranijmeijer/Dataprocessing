@@ -10,21 +10,22 @@
         <script type="text/javascript">
           d3.select("body").append("h1").attr("class", "joe").text("Bar chart Renewable Energy");
           d3.select("body").append("p").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
-          d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1960 and 2016.")
+          d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1970 and 2016.")
 
-          var w = 750;
+          var w = 1000;
           var h = 250;
           var barPadding = 1;
+          var margin = ({top: 20, right: 0, bottom: 30, left: 40})
 
           var svg = d3.select("body")
                       .append("svg")
                       .attr("width", w)
                       .attr("height", h);
 
+
           var fileName = "data2.json";
           var txtFile = new XMLHttpRequest();
-          var list_year_KTOE = []
-          var list_year_PC_PRYENRGSUPPLY = []
+
 
           // when the XMLHttpRequest is ready, the file is parsed
           txtFile.onreadystatechange = function() {
@@ -32,27 +33,52 @@
               json = JSON.parse(txtFile.responseText);
 
               var dataset = json;
+
+              var xScale = d3.scale.linear()
+                                   .domain([1971, 2016])
+                                   .range([margin.left, w - margin.right]);
+
+              var yScale = d3.scale.linear()
+                                   .domain([0,2000000])
+                                   .range([margin.top, h - margin.bottom]);
+
               console.log(dataset)
               svg.selectAll("rect")
                  .data(dataset)
                  .enter()
                  .append("rect")
-                 .attr("x", function(d, i) {
-                    return i * (w / dataset.length);
+                 .attr("x", function(d) {
+                    return xScale(d["TIME"]);
                  })
                   .attr("y", function(d) {
 
-                    return h - d["Value"] / 7500;
+                    return h - yScale(d["Value"]);
                   })
-                  .attr("width", w / (dataset.length - barPadding))
+                  .attr("width", w / (dataset.length))
 
                   .attr("height", function(d) {
-                    console.log(d["Value"])
-                    return d["Value"] / 7500;
+                    return yScale(d["Value"]);
                   })
-                  .attr("fill", function(d) {
-                    return "rgb(0, 0," + (d["Value"] * 10) + ")"
-                  });
+                  .attr("fill", "green")
+                  .attr("stroke", "lightblue");
+
+              var xAxis = d3.svg.axis()
+                            .scale(xScale);
+                            // .orient("bottom")
+                            // .tickFormat(d3.time.format("%YYYY"));
+
+              var yAxis = d3.svg.axis()
+                                .scale(yScale)
+                                .orient("left");
+
+
+              svg.append("g")
+                 // .attr("transform", "translate(0," + h - 20 + ")")
+                 .call(xAxis);
+
+
+              svg.append("g")
+                 .call(yAxis);
 
               }
             };
