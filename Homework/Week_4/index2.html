@@ -13,11 +13,13 @@
           d3.select("body").append("p").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
           d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1971 and 2016.")
 
+          // define size of svg
           var w = 1000;
           var h = 250;
           var barPadding = 3;
           var margin = ({top: 20, right: 20, bottom: 30, left: 100})
 
+          // create svg
           var svg = d3.select("body")
                       .append("svg")
                       .attr("width", w)
@@ -28,13 +30,14 @@
           var txtFile = new XMLHttpRequest();
 
 
-          // when the XMLHttpRequest is ready, the file is parsed
+          // import json file
           txtFile.onreadystatechange = function() {
             if (txtFile.readyState === 4 && txtFile.status == 200) {
               json = JSON.parse(txtFile.responseText);
 
               var dataset = json;
 
+              // define x and y scale
               var xScale = d3.scale.linear()
                                    .domain([1971, 2016])
                                    .range([margin.left, w - margin.right]);
@@ -43,6 +46,7 @@
                                    .domain([0,2000000])
                                    .range([h - margin.bottom, margin.top]);
 
+              // define tip
               var tip = d3.tip()
                           .attr("class", "d3-tip")
                           .offset([-10, 0])
@@ -50,7 +54,7 @@
                             return "<span style='color:white'>" + d.Value + "</span>";
                           })
 
-              console.log(dataset)
+              // make bars
               svg.selectAll("rect")
                  .data(dataset)
                  .enter()
@@ -81,7 +85,7 @@
                   .attr("fill", "green")
                   .attr("stroke", "lightblue");
 
-
+              // add axes
               var xAxis = d3.svg.axis()
                             .scale(xScale)
                             .orient("bottom")
@@ -93,20 +97,19 @@
                                 .scale(yScale)
                                 .orient("left")
                                 .tickFormat(d3.format(".0", 1e3));
-                                // .orient("left");
+
+              // add title
               var title = svg.append("text")
                 .attr("y", margin.top)
                 .attr("x", 400)
                 .style("font-size", "20px")
                 .text("Renewable energy in the world per year")
 
-              // nu nog hardcoded, moet niet hardcoded worden
+              // add axes
               svg.append("g")
                  .attr("transform", "translate(0, 220)")
                  .attr("class", "axis")
                  .call(xAxis);
-
-              svg.call(tip);
 
               svg.append("g")
                  .attr("transform", "translate(100, 0)")
@@ -118,7 +121,7 @@
                  .style("text-anchor", "end")
                  .text("Renewable energy");
 
-
+              svg.call(tip);
               }
             };
 
