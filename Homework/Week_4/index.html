@@ -4,18 +4,19 @@
         <meta charset="utf-8">
         <title>Renewable Energy</title>
         <script type="text/javascript" src="d3/d3.v3.js"></script>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="d3/tip.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles2.css">
     </head>
     <body>
         <script type="text/javascript">
           d3.select("body").append("h1").attr("class", "joe").text("Bar chart Renewable Energy");
           d3.select("body").append("p").text("This is week 4's assignment for the course Data Processing by Vera Nijmeijer, student ID: 10753567.");
-          d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1970 and 2016.")
+          d3.select("body").append("p").text("Renewable energy includes energy from, among other things, hydro, solar and wind sources, but also energy derived from biofuels. Renewable energy is measured in thousand toe (tonne of oil equivalent). This bar chart shows how the contribution of renewable energy has developed between 1971 and 2016.")
 
           var w = 1000;
           var h = 250;
-          var barPadding = 1;
-          var margin = ({top: 20, right: 0, bottom: 30, left: 40})
+          var barPadding = 3;
+          var margin = ({top: 20, right: 20, bottom: 30, left: 100})
 
           var svg = d3.select("body")
                       .append("svg")
@@ -40,7 +41,14 @@
 
               var yScale = d3.scale.linear()
                                    .domain([0,2000000])
-                                   .range([margin.top, h - margin.bottom]);
+                                   .range([h - margin.bottom, margin.top]);
+
+              var tip = d3.tip()
+                          .attr("class", "d3-tip")
+                          .offset([-10, 0])
+                          .html(function(d) {
+                            return "<span style='color:white'>" + d.Value + "</span>";
+                          })
 
               console.log(dataset)
               svg.selectAll("rect")
@@ -52,33 +60,64 @@
                  })
                   .attr("y", function(d) {
 
-                    return h - yScale(d["Value"]);
+                    return yScale(d["Value"]);
                   })
-                  .attr("width", w / (dataset.length))
+                  .attr("width", w / dataset.length - barPadding)
 
                   .attr("height", function(d) {
-                    return yScale(d["Value"]);
+                    return yScale(0) - yScale(d["Value"]);
+                  })
+                  .on("mousedown", tip.show)
+                  // Source: http://bl.ocks.org/phil-pedruco/9032348
+                  .on("mouseover", function() {
+                    d3.select(this)
+                      .attr("fill", "lightgreen");
+                  })
+                  .on("mouseup",tip.hide)
+                  .on("mouseout", function(d, i) {
+                    d3.select(this)
+                      .attr("fill", "green");
                   })
                   .attr("fill", "green")
                   .attr("stroke", "lightblue");
 
+
               var xAxis = d3.svg.axis()
-                            .scale(xScale);
-                            // .orient("bottom")
-                            // .tickFormat(d3.time.format("%YYYY"));
+                            .scale(xScale)
+                            .orient("bottom")
+                            .tickSize(0)
+                            .ticks(10)
+                            .tickFormat(d3.format(".0"));
 
               var yAxis = d3.svg.axis()
                                 .scale(yScale)
-                                .orient("left");
+                                .orient("left")
+                                .tickFormat(d3.format(".0", 1e3));
+                                // .orient("left");
+              var title = svg.append("text")
+                .attr("y", margin.top)
+                .attr("x", 400)
+                .style("font-size", "20px")
+                .text("Renewable energy in the world per year")
 
-
+              // nu nog hardcoded, moet niet hardcoded worden
               svg.append("g")
-                 // .attr("transform", "translate(0," + h - 20 + ")")
+                 .attr("transform", "translate(0, 220)")
+                 .attr("class", "axis")
                  .call(xAxis);
 
+              svg.call(tip);
 
               svg.append("g")
-                 .call(yAxis);
+                 .attr("transform", "translate(100, 0)")
+                 .attr("class", "axis")
+                 .call(yAxis)
+                .append("text")
+                 .attr("transform", "rotate(-90)")
+                 .attr("y", -60)
+                 .style("text-anchor", "end")
+                 .text("Renewable energy");
+
 
               }
             };

@@ -36,4 +36,4 @@ def create_json(infile, outfile):
         with open(outfile, "w") as output:
             json.dump(dict_dates, output, indent=4)
 
-create_json("data.csv", "data.json")
+create_json("data.csv", "data2.json")
