@@ -103,15 +103,19 @@ function parse_data(data1, data2) {
   var index_country = -1;
 
   for (i = 0; i < data1.length; i++) {
+    // if year is 2007, this means it's a new country
     if (data1[i].time == "2007") {
       index_country += 1;
     };
+    // search for matching datapoint in dataset2
     for (j = 0; j < data2.length; j++) {
 
       if (data2[j].time == data1[i].time && data2[j].Country == countries[index_country]) {
         if (years.includes(data1[i].time) == false) {
+          // creates list of years
           years.push(data1[i].time);
         }
+        // datapoint information is added to list
         datapoints.push([data1[i].datapoint, data2[j].datapoint, data1[i].time, countries[index_country], colors[index_country]]);
       };
     };
@@ -121,9 +125,11 @@ function parse_data(data1, data2) {
 };
 
 function add_dropdown(svg, xScale, yScale, datapoints, years) {
-  // source: http://bl.ocks.org/jfreels/6734823
+
   d3.select("body").append("br");
   d3.select("body").append("text").text("Choose year to show scatterplot: ").attr("class", "titles");
+
+  // source: http://bl.ocks.org/jfreels/6734823
   var select = d3.select('body')
                  .append('select')
                  .on('change', onchange);
@@ -136,6 +142,7 @@ function add_dropdown(svg, xScale, yScale, datapoints, years) {
                       });
 
   function onchange() {
+    // if dropdown changes, refill scatter with update-value = true and year = value from dropdown
     selectValue = d3.select("select").property("value");
     fill_scatter(svg, xScale, yScale, datapoints, selectValue, true);
   }
@@ -156,15 +163,15 @@ function create_scatter(datapoints, year, colors, countries) {
 
   // add background scatterplot
   svg.append("rect")
-     .attr("x", 50)
-     .attr("y", 50)
+     .attr("x", margin.left)
+     .attr("y", margin.top)
      .attr("width", 400)
      .attr("height", 400)
      .style("fill", "white");
 
   // add background legend
   svg.append("rect")
-     .attr("x", 458)
+     .attr("x", w - margin.right + 8)
      .attr("y", 300)
      .attr("width", 140)
      .attr("height", 140)
@@ -192,6 +199,7 @@ function create_scatter(datapoints, year, colors, countries) {
        return d;
      });
 
+  // add text for legend
   svg.selectAll("leg_text")
      .data(countries)
      .enter().append("text")
@@ -204,14 +212,13 @@ function create_scatter(datapoints, year, colors, countries) {
        return d;
      });
 
-
   // define x and y scale
   var xScale = d3.scaleLinear()
                  .domain([0, 100])
                  .range([margin.left, w - margin.right]);
 
   var yScale = d3.scaleLinear()
-                 .domain([90,110])
+                 .domain([95,105])
                  .range([h - margin.bottom, margin.top]);
 
   // add x-axis
