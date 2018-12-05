@@ -1,0 +1,25 @@
+/* Vera Nijmeijer
+   10753567
+   Assignment minor Programmeren UvA*/
+
+body {
+  background-color: lightblue;
+}
+h1
+{
+  color: darkblue;
+  font: 30px verdana;
+  font-weight: bold;
+}
+h2 {
+  color: darkblue;
+  font: 20px verdana;
+}
+p
+{
+  font: 12px verdana;
+}
+.list
+{
+  font: 12px verdana;
+}

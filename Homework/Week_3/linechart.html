@@ -1,0 +1,122 @@
+<!-- Name: vera Nijmeijer
+     Student ID: 10753567
+     Line chart of average temperature since 1901
+     Source: http://projects.knmi.nl/klimatologie/daggegevens/selectie.cgi-->
+
+<html>
+  <head>
+    <title>Line chart</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <script>
+       // this function calculates the screen coordinates for the value given
+      function screen(range, domain, data) {
+        diff_data = domain[1] - domain[0]
+        diff_screen = range[1] - range[0]
+
+        a = diff_screen / diff_data
+        b = range[1] - a * domain[1]
+
+        return data * a + b
+      }
+      // this function calculates the coordinates for the y value
+      function y_screen(y_data) {
+        return screen([50,canvas.height - 50],[120,0],y_data)
+      }
+      // this function calculates the coordinates for the x value
+      function x_screen(x_data) {
+        return screen([70,canvas.width - 50],[1900,2020], x_data)
+      }
+
+      var fileName = "data.json";
+      var txtFile = new XMLHttpRequest();
+      var old_year = 1901
+      var amount = 0
+      var total_temperature = 0
+      var average_temperatures = {}
+
+      // when the XMLHttpRequest is ready, the file is parsed
+      txtFile.onreadystatechange = function() {
+        if (txtFile.readyState === 4 && txtFile.status == 200) {
+          json = JSON.parse(txtFile.responseText);
+
+          // iterate through all elements
+          json.forEach(function(element) {
+            // calculates average temperature per year
+            let new_year = element["YYYYMMDD"].substr(0, 4);
+            if (new_year == old_year) {
+              amount += 1;
+              total_temperature += parseInt(element["TG"], 10);
+            }
+            if (new_year == old_year + 1) {
+              average_temperatures[old_year] = total_temperature / amount
+              old_year += 1;
+              total_temperature = parseInt(element["TG"], 10);
+              amount = 1;
+            }
+          });
+          average_temperatures["2017"] = total_temperature / amount
+
+          // create canvas
+          const canvas = document.getElementById("canvas");
+          const ctx = canvas.getContext("2d");
+
+          // create line chart
+          ctx.beginPath();
+          ctx.moveTo(x_screen(year),y_screen(average_temperatures["1901"]));
+          for (i = 0; i < 117; i++) {
+            year = 1901 + i;
+            ctx.lineTo(x_screen(year),y_screen(average_temperatures[year]));
+          }
+
+           // creates axes
+          ctx.moveTo(70,50);
+          ctx.lineTo(70,canvas.height - 50);
+          ctx.lineTo(canvas.width - 50,canvas.height - 50);
+
+          var degrees = 12;
+          var year = 1900;
+
+          // labels the axes
+          for (i = 0; i < 13; i++) {
+            ctx.textAlign="end";
+            if (i < 7) {
+              ctx.fillText(degrees + " \xB0C", 60, i * (500 / 6) + 54);
+              ctx.moveTo(70, i * (500 / 6) + 50);
+              ctx.lineTo(65, i * (500 / 6) + 50);
+              degrees -= 2;
+            }
+
+            ctx.fillText(year, i * (480 / 12) + 80, 565);
+            ctx.moveTo(70 + i * (480 / 12), 550);
+            ctx.lineTo(70 + i * (480 / 12), 555);
+            year += 10;
+          }
+          ctx.stroke();
+
+          // gives titles to the axes and chart
+          ctx.font="bold 12px Verdana";
+          ctx.rotate(-Math.PI / 2);
+          ctx.fillText("Average temperature", -45, 20);
+          ctx.rotate(Math.PI / 2);
+
+          ctx.fillText("Year", 550, 585);
+
+          ctx.font="bold 16px Verdana"
+          ctx.fillText("Average temperature in \xB0C per year at De Bilt", 425, 20)
+
+        }
+      }
+
+
+
+
+      txtFile.open("GET", fileName);
+      txtFile.send();
+
+    </script>
+
+
+  </body>
+</html>
