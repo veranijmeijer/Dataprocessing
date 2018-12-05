@@ -4,24 +4,36 @@
 
 window.onload = function() {
 
-  console.log('Yes, you can!');
-
-  var womenInScience = "http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015"
+  var womenInScience = "http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015";
   var consConf = "http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015";
 
   var requests = [d3.json(womenInScience), d3.json(consConf)];
 
     Promise.all(requests).then(function(response) {
       var transformedWomen = transformResponse(response[0]);
-      var transformedConf = transformResponse(response[1])
-      console.log(transformedWomen);
-      console.log(transformedConf);
-      parse_data(transformedWomen, transformedConf);
+      var transformedConf = transformResponse(response[1]);
+
+      var datapoints = parse_data(transformedWomen, transformedConf);
+      var data = datapoints[0];
+      var colors = datapoints[1];
+      var countries = datapoints[2];
+      var years = datapoints[3];
+      var year = "2007";
+
+      var plot = create_scatter(data, year, colors, countries);
+      var svg = plot[0];
+      var xScale = plot[1];
+      var yScale = plot[2];
+      var update = false;
+
+      fill_scatter(svg, xScale, yScale, data, year, update);
+      add_dropdown(svg, xScale, yScale, data, years);
     }).catch(function(e){
         throw(e);
     });
 };
 
+// source: https://data.mprog.nl/course/10%20Homework/100%20D3%20Scatterplot/scripts/transformResponseV1.js
 function transformResponse(data){
 
     // access data property of the response
@@ -81,23 +93,198 @@ function transformResponse(data){
     return dataArray;
 }
 
-// data1: FRA, DEU, KOR, NLD, PRT, GBR
 function parse_data(data1, data2) {
-  // console.log(data1);
-  // console.log(data2);
 
-  var datapoints = []
+  var countries = ["France", "Germany", "Korea", "Netherlands", "Portugal", "United Kingdom"]
+  // source color scheme: http://colorbrewer2.org/?type=qualitative&scheme=Dark2&n=6
+  var colors = ['#1b9e77','#d95f02','#7570b3','#e7298a','#66a61e','#e6ab02'];
+  var datapoints = [];
+  var years = [];
+  var index_country = -1;
 
-  for (i = 0; i < data2.length; i++) {
-    console.log(data2[i + j].time);
-    console.log(data1[i].time);
-    if (data2[i + j].time != data1[i].time) {
-      console.log("niet goed he")
-      j += 1;
-    } else {
-      datapoints.push([data1[i].datapoint, data2[i + j].datapoint])
-    }
-  }
+  for (i = 0; i < data1.length; i++) {
+    if (data1[i].time == "2007") {
+      index_country += 1;
+    };
+    for (j = 0; j < data2.length; j++) {
 
-  console.log(datapoints);
+      if (data2[j].time == data1[i].time && data2[j].Country == countries[index_country]) {
+        if (years.includes(data1[i].time) == false) {
+          years.push(data1[i].time);
+        }
+        datapoints.push([data1[i].datapoint, data2[j].datapoint, data1[i].time, countries[index_country], colors[index_country]]);
+      };
+    };
+  };
+  return [datapoints, colors, countries, years];
+
 };
+
+function add_dropdown(svg, xScale, yScale, datapoints, years) {
+  // source: http://bl.ocks.org/jfreels/6734823
+  var select = d3.select('body')
+                 .append('select')
+                 .on('change', onchange);
+
+  var options = select.selectAll("option")
+                      .data(years).enter()
+                      .append("option")
+                      .text(function(d) {
+                        return d;
+                      });
+
+  function onchange() {
+    selectValue = d3.select("select").property("value");
+    fill_scatter(svg, xScale, yScale, datapoints, selectValue, true);
+  }
+}
+
+function create_scatter(datapoints, year, colors, countries) {
+
+  // define size of svg
+  var w = 700;
+  var h = 500;
+  var margin = ({top: 50, right: 250, bottom: 50, left: 50})
+
+  // create svg
+  var svg = d3.select("body")
+              .append("svg")
+              .attr("width", w)
+              .attr("height", h);
+
+  // add background scatterplot
+  svg.append("rect")
+     .attr("x", 50)
+     .attr("y", 50)
+     .attr("width", 400)
+     .attr("height", 400)
+     .style("fill", "white");
+
+  // add background legend
+  svg.append("rect")
+     .attr("x", 458)
+     .attr("y", 300)
+     .attr("width", 140)
+     .attr("height", 140)
+     .style("fill", "white")
+     .style("stroke", "#000");
+
+  // add title legend
+  svg.append("text")
+     .attr("x", 528)
+     .attr("y", 315)
+     .style("font", "13px verdana")
+     .style("font-weight", "bold")
+     .style("text-anchor", "middle")
+     .text("Legend");
+
+  // add rectangles for legend
+  svg.selectAll("rect_leg")
+     .data(colors)
+     .enter().append("rect")
+     .attr("x", 460)
+     .attr("y", function(d, i) {
+       return 320 + i * 20;
+     })
+     .attr("width", 18)
+     .attr("height", 18)
+     .style("fill", function(d) {
+       return d;
+     });
+
+  svg.selectAll("text_leg")
+     .data(countries)
+     .enter().append("text")
+     .attr("x", 480)
+     .attr("y", function(d, i) {
+       return 333 + i * 20;
+     })
+     .style("font", "10px verdana")
+     .text(function(d) {
+       return d;
+     });
+
+
+  // define x and y scale
+  var xScale = d3.scaleLinear()
+                 .domain([0, 100])
+                 .range([margin.left, w - margin.right]);
+
+  var yScale = d3.scaleLinear()
+                 .domain([90,110])
+                 .range([h - margin.bottom, margin.top]);
+
+  // add x-axis
+  svg.append("g")
+     // .attr("class", "axis")
+     .attr("transform", "translate(0, 450)")
+     .call(d3.axisBottom(xScale));
+
+  // add label x-axis
+  svg.append("text")
+     .attr("transform", "translate(275, 485)")
+     .style("text-anchor", "middle")
+     .style("font", "10px verdana")
+     .text("Female researchers (%)");
+
+  // add y-axis
+  svg.append("g")
+     // .attr("class", "axis")
+     .attr("transform", "translate(50, 0)")
+     .call(d3.axisLeft(yScale));
+
+  // add label y-axis
+  svg.append("text")
+     .attr("transform", "translate(15, 250) rotate(-90)")
+     .style("text-anchor", "middle")
+     .style("font", "10px verdana")
+     .text("Consumer confidence");
+
+  return [svg, xScale, yScale];
+}
+
+function fill_scatter(svg, xScale, yScale, datapoints, year, update) {
+  // isolate data of correct year
+  var data = []
+  datapoints.forEach(function(element) {
+    if (element[2] == year) {
+      data.push(element);
+    }
+  });
+
+  if (update == false) {
+    // add title
+    svg.append("text")
+       .attr("class", "title_scat")
+       .attr("transform", "translate(250, 25)")
+       .style("text-anchor", "middle")
+       .style("font", "13px verdana")
+       .style("font-weight", "bold")
+       .text("Scatterplot female researchers and consumer confidence " + year);
+    } else {
+      // update title
+      d3.selectAll(".title_scat").each(function(d, i) {
+        d3.select(this).text("Scatterplot female researchers and consumer confidence " + year);
+      });
+
+      // remove old dots
+      svg.selectAll(".dots_scat").remove();
+    }
+
+  // add dots
+  svg.selectAll("circle")
+     .data(data)
+     .enter().append("circle")
+      .attr("class", "dots_scat")
+      .attr("r", 3.5)
+      .attr("cx", function(d) {
+        return xScale(d[0]);
+      })
+      .attr("cy", function(d) {
+        return yScale(d[1]);
+      })
+      .style("fill", function(d) {
+        return d[4];
+      });
+
+}

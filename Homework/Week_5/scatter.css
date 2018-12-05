@@ -58,3 +58,7 @@ p
   top: 100%;
   left: 0;
 }
+.point {
+    fill: steelblue;
+    stroke: #000;
+}
