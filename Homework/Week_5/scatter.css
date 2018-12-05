@@ -7,58 +7,43 @@ body {
 }
 h1
 {
-  color: blue;
-  font: verdana;
+  color: darkblue;
+  font: 30px verdana;
+  font-weight: bold;
+}
+h2 {
+  color: darkblue;
+  font: 20px verdana;
 }
 p
 {
-  font: verdana;
-}
-.bars
-{
-  background-color: green;
-}
-.bars:hover {
-  fill: lightgreen ;
+  font: 12px verdana;
 }
 .axis {
   font: 10px verdana;
 }
-.axis path,
 .axis line {
   fill: none;
   stroke: #000;
   stroke-width: 1px;
 }
-.d3-tip {
-  line-height: 1;
+.axis_text {
+  font: 10px verdana;
+  text-anchor: middle;
+}
+.leg_text {
+  font: 10px verdana;
+}
+.title_scat {
+  font: 13px verdana;
   font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
+  color: darkblue;
 }
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
+.titles {
+  font: 13px verdana;
+  font-weight: bold;
 }
-
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-.point {
-    fill: steelblue;
-    stroke: #000;
+.legend {
+  fill: white;
+  stroke: #000;
 }

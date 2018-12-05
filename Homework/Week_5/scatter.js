@@ -4,8 +4,8 @@
 
 window.onload = function() {
 
-  var womenInScience = "http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015";
-  var consConf = "http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015";
+  var womenInScience = "https://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015";
+  var consConf = "https://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015";
 
   var requests = [d3.json(womenInScience), d3.json(consConf)];
 
@@ -122,6 +122,8 @@ function parse_data(data1, data2) {
 
 function add_dropdown(svg, xScale, yScale, datapoints, years) {
   // source: http://bl.ocks.org/jfreels/6734823
+  d3.select("body").append("br");
+  d3.select("body").append("text").text("Choose year to show scatterplot: ").attr("class", "titles");
   var select = d3.select('body')
                  .append('select')
                  .on('change', onchange);
@@ -166,15 +168,13 @@ function create_scatter(datapoints, year, colors, countries) {
      .attr("y", 300)
      .attr("width", 140)
      .attr("height", 140)
-     .style("fill", "white")
-     .style("stroke", "#000");
+     .attr("class", "legend");
 
   // add title legend
   svg.append("text")
      .attr("x", 528)
      .attr("y", 315)
-     .style("font", "13px verdana")
-     .style("font-weight", "bold")
+     .attr("class", "titles")
      .style("text-anchor", "middle")
      .text("Legend");
 
@@ -192,14 +192,14 @@ function create_scatter(datapoints, year, colors, countries) {
        return d;
      });
 
-  svg.selectAll("text_leg")
+  svg.selectAll("leg_text")
      .data(countries)
      .enter().append("text")
      .attr("x", 480)
      .attr("y", function(d, i) {
        return 333 + i * 20;
      })
-     .style("font", "10px verdana")
+     .attr("class", "leg_text")
      .text(function(d) {
        return d;
      });
@@ -216,28 +216,26 @@ function create_scatter(datapoints, year, colors, countries) {
 
   // add x-axis
   svg.append("g")
-     // .attr("class", "axis")
+     .attr("class", "axis")
      .attr("transform", "translate(0, 450)")
      .call(d3.axisBottom(xScale));
 
   // add label x-axis
   svg.append("text")
      .attr("transform", "translate(275, 485)")
-     .style("text-anchor", "middle")
-     .style("font", "10px verdana")
+     .attr("class", "axis_text")
      .text("Female researchers (%)");
 
   // add y-axis
   svg.append("g")
-     // .attr("class", "axis")
+     .attr("class", "axis")
      .attr("transform", "translate(50, 0)")
      .call(d3.axisLeft(yScale));
 
   // add label y-axis
   svg.append("text")
      .attr("transform", "translate(15, 250) rotate(-90)")
-     .style("text-anchor", "middle")
-     .style("font", "10px verdana")
+     .attr("class", "axis_text")
      .text("Consumer confidence");
 
   return [svg, xScale, yScale];
@@ -256,10 +254,7 @@ function fill_scatter(svg, xScale, yScale, datapoints, year, update) {
     // add title
     svg.append("text")
        .attr("class", "title_scat")
-       .attr("transform", "translate(250, 25)")
-       .style("text-anchor", "middle")
-       .style("font", "13px verdana")
-       .style("font-weight", "bold")
+       .attr("transform", "translate(10, 25)")
        .text("Scatterplot female researchers and consumer confidence " + year);
     } else {
       // update title
