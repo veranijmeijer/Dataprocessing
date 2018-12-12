@@ -1,5 +1,5 @@
 {
-    "Australia": {
+    "AUS": {
         "Labour market insecurity": {
             "Total": 4.3
         },
@@ -136,7 +136,7 @@
             "Women": 14.33
         }
     },
-    "Austria": {
+    "AUT": {
         "Labour market insecurity": {
             "Total": 2.7
         },
@@ -273,7 +273,7 @@
             "Women": 14.32
         }
     },
-    "Belgium": {
+    "BEL": {
         "Labour market insecurity": {
             "Total": 4.8
         },
@@ -409,7 +409,7 @@
             "Women": 15.52
         }
     },
-    "Canada": {
+    "CAN": {
         "Labour market insecurity": {
             "Total": 3.9
         },
@@ -546,7 +546,7 @@
             "Women": 14.25
         }
     },
-    "Czech Republic": {
+    "CZE": {
         "Labour market insecurity": {
             "Total": 1.8
         },
@@ -684,7 +684,7 @@
             "Women": 14.82
         }
     },
-    "Denmark": {
+    "DNK": {
         "Labour market insecurity": {
             "Total": 2.3
         },
@@ -820,7 +820,7 @@
             "Women": 15.94
         }
     },
-    "Finland": {
+    "FIN": {
         "Labour market insecurity": {
             "Total": 2.7
         },
@@ -958,7 +958,7 @@
             "Women": 15.04
         }
     },
-    "France": {
+    "FRA": {
         "Labour market insecurity": {
             "Total": 5.0
         },
@@ -1096,7 +1096,7 @@
             "Women": 15.99
         }
     },
-    "Germany": {
+    "DEU": {
         "Labour market insecurity": {
             "Total": 2.0
         },
@@ -1233,7 +1233,7 @@
             "Women": 15.45
         }
     },
-    "Greece": {
+    "GRC": {
         "Labour market insecurity": {
             "Total": 17.4
         },
@@ -1371,7 +1371,7 @@
             "Women": 14.42
         }
     },
-    "Hungary": {
+    "HUN": {
         "Labour market insecurity": {
             "Total": 4.8
         },
@@ -1509,7 +1509,7 @@
             "Women": 14.82
         }
     },
-    "Iceland": {
+    "ISL": {
         "Labour market insecurity": {
             "Total": 2.6
         },
@@ -1647,7 +1647,7 @@
             "Women": 13.87
         }
     },
-    "Ireland": {
+    "IRL": {
         "Labour market insecurity": {
             "Total": 2.1
         },
@@ -1785,7 +1785,7 @@
             "Women": 15.06
         }
     },
-    "Italy": {
+    "ITA": {
         "Labour market insecurity": {
             "Total": 8.1
         },
@@ -1923,7 +1923,7 @@
             "Women": 14.29
         }
     },
-    "Japan": {
+    "JPN": {
         "Labour market insecurity": {
             "Total": 1.5
         },
@@ -2061,7 +2061,7 @@
             "Women": 14.53
         }
     },
-    "Korea": {
+    "KOR": {
         "Labour market insecurity": {
             "Total": 2.4
         },
@@ -2199,7 +2199,7 @@
             "Women": 14.0
         }
     },
-    "Luxembourg": {
+    "LUX": {
         "Labour market insecurity": {
             "Total": 3.2
         },
@@ -2337,7 +2337,7 @@
             "Women": 14.92
         }
     },
-    "Mexico": {
+    "MEX": {
         "Labour market insecurity": {
             "Total": 4.6
         },
@@ -2475,7 +2475,7 @@
             "Women": 12.39
         }
     },
-    "Netherlands": {
+    "NLD": {
         "Labour market insecurity": {
             "Total": 2.1
         },
@@ -2611,7 +2611,7 @@
             "Women": 15.71
         }
     },
-    "New Zealand": {
+    "NZL": {
         "Labour market insecurity": {
             "Total": 4.9
         },
@@ -2749,7 +2749,7 @@
             "Women": 14.95
         }
     },
-    "Norway": {
+    "NOR": {
         "Labour market insecurity": {
             "Total": 2.7
         },
@@ -2887,7 +2887,7 @@
             "Women": 15.65
         }
     },
-    "Poland": {
+    "POL": {
         "Labour market insecurity": {
             "Total": 4.3
         },
@@ -3025,7 +3025,7 @@
             "Women": 14.08
         }
     },
-    "Portugal": {
+    "PRT": {
         "Labour market insecurity": {
             "Total": 6.5
         },
@@ -3163,7 +3163,7 @@
             "Women": 14.64
         }
     },
-    "Slovak Republic": {
+    "SVK": {
         "Labour market insecurity": {
             "Total": 6.7
         },
@@ -3301,7 +3301,7 @@
             "Women": 14.77
         }
     },
-    "Spain": {
+    "ESP": {
         "Labour market insecurity": {
             "Total": 17.3
         },
@@ -3438,7 +3438,7 @@
             "Women": 15.48
         }
     },
-    "Sweden": {
+    "SWE": {
         "Labour market insecurity": {
             "Total": 5.7
         },
@@ -3575,7 +3575,7 @@
             "Women": 15.23
         }
     },
-    "Switzerland": {
+    "CHE": {
         "Labour market insecurity": {
             "Total": 1.8
         },
@@ -3713,7 +3713,7 @@
             "Women": 14.78
         }
     },
-    "Turkey": {
+    "TUR": {
         "Labour market insecurity": {
             "Total": 13.0
         },
@@ -3851,7 +3851,7 @@
             "Women": 12.22
         }
     },
-    "United Kingdom": {
+    "GBR": {
         "Labour market insecurity": {
             "Total": 2.6
         },
@@ -3989,7 +3989,7 @@
             "Women": 14.86
         }
     },
-    "United States": {
+    "USA": {
         "Labour market insecurity": {
             "Total": 3.8
         },
@@ -4125,7 +4125,7 @@
             "Women": 14.39
         }
     },
-    "Brazil": {
+    "BRA": {
         "Labour market insecurity": {
             "Total": 4.9
         },
@@ -4261,7 +4261,7 @@
             "Women": 14.18
         }
     },
-    "Chile": {
+    "CHL": {
         "Labour market insecurity": {
             "Total": 8.1
         },
@@ -4399,7 +4399,7 @@
             "Women": 14.66
         }
     },
-    "Estonia": {
+    "EST": {
         "Labour market insecurity": {
             "Total": 4.0
         },
@@ -4537,7 +4537,7 @@
             "Women": 14.43
         }
     },
-    "Israel": {
+    "ISR": {
         "Labour market insecurity": {
             "Total": 2.6
         },
@@ -4673,7 +4673,7 @@
             "Women": 13.63
         }
     },
-    "Latvia": {
+    "LVA": {
         "Labour market insecurity": {
             "Total": 6.8
         },
@@ -4811,7 +4811,7 @@
             "Women": 13.45
         }
     },
-    "Russia": {
+    "RUS": {
         "Labour market insecurity": {
             "Total": 3.6
         },
@@ -4949,7 +4949,7 @@
             "Women": 14.66
         }
     },
-    "Slovenia": {
+    "SVN": {
         "Labour market insecurity": {
             "Total": 4.0
         },
@@ -5085,7 +5085,7 @@
             "Women": 14.17
         }
     },
-    "South Africa": {
+    "ZAF": {
         "Labour market insecurity": {
             "Total": 26.5
         },
@@ -5223,7 +5223,7 @@
             "Women": 14.37
         }
     },
-    "OECD - Total": {
+    "OECD": {
         "Labour market insecurity": {
             "Total": 4.9
         },

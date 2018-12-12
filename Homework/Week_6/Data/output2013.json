@@ -1,0 +1,5242 @@
+{
+    "AUS": {
+        "Dwellings without basic facilities": {
+            "Total": 1.2,
+            "Men": 1.2,
+            "Women": 1.2
+        },
+        "Housing expenditure": {
+            "Total": 19.0,
+            "Men": 19.0,
+            "Women": 19.0
+        },
+        "Rooms per person": {
+            "Total": 2.3,
+            "Men": 2.3,
+            "Women": 2.3
+        },
+        "Household net adjusted disposable income": {
+            "Total": 28884.0,
+            "Men": 28884.0,
+            "Women": 28884.0,
+            "High": 58409.0,
+            "Low": 10323.0
+        },
+        "Household net financial wealth": {
+            "Total": 32178.0,
+            "Men": 32178.0,
+            "Women": 32178.0
+        },
+        "Employment rate": {
+            "Total": 73.0,
+            "Men": 79.0,
+            "Women": 67.0,
+            "High": 84.0,
+            "Low": 59.0
+        },
+        "Job security": {
+            "Total": 12.4,
+            "Men": 13.0,
+            "Women": 11.9
+        },
+        "Long-term unemployment rate": {
+            "Total": 0.96,
+            "Men": 0.97,
+            "Women": 0.957307747,
+            "High": 0.53,
+            "Low": 1.64
+        },
+        "Personal earnings": {
+            "Total": 43908.0,
+            "Men": 47419.0,
+            "Women": 37755.0,
+            "High": 55624.0,
+            "Low": 26074.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 92.0,
+            "Women": 95.0,
+            "High": 95.0,
+            "Low": 82.0
+        },
+        "Educational attainment": {
+            "Total": 73.0,
+            "Men": 76.0,
+            "Women": 71.0
+        },
+        "Student skills": {
+            "Total": 519.0,
+            "Men": 514.0,
+            "Women": 523.0,
+            "High": 569.0,
+            "Low": 471.0
+        },
+        "Years in education": {
+            "Total": 18.5,
+            "Men": 18.3,
+            "Women": 18.7
+        },
+        "Air pollution": {
+            "Total": 14.0,
+            "Men": 14.0,
+            "Women": 14.0
+        },
+        "Water quality": {
+            "Total": 91.0,
+            "Men": 92.0,
+            "Women": 90.0,
+            "High": 94.0,
+            "Low": 88.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.5
+        },
+        "Voter turnout": {
+            "Total": 93.0,
+            "Men": 93.0,
+            "Women": 93.0,
+            "High": 94.0,
+            "Low": 92.0
+        },
+        "Life expectancy": {
+            "Total": 82.0,
+            "Men": 79.7,
+            "Women": 84.2
+        },
+        "Self-reported health": {
+            "Total": 85.0,
+            "Men": 84.0,
+            "Women": 85.0,
+            "High": 93.0,
+            "Low": 75.0
+        },
+        "Life satisfaction": {
+            "Total": 7.2,
+            "Men": 7.2,
+            "Women": 7.2,
+            "High": 7.4,
+            "Low": 7.1
+        },
+        "Assault rate": {
+            "Total": 2.1,
+            "Men": 2.5,
+            "Women": 1.7
+        },
+        "Homicide rate": {
+            "Total": 1.0,
+            "Men": 1.5,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 14.13,
+            "Men": 20.95,
+            "Women": 6.38
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.41,
+            "Men": 14.43,
+            "Women": 14.37
+        }
+    },
+    "AUT": {
+        "Dwellings without basic facilities": {
+            "Total": 1.2,
+            "Men": 1.2,
+            "Women": 1.2
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.7,
+            "Men": 1.7,
+            "Women": 1.7
+        },
+        "Household net adjusted disposable income": {
+            "Total": 28852.0,
+            "Men": 28852.0,
+            "Women": 28852.0,
+            "High": 52387.0,
+            "Low": 13515.0
+        },
+        "Household net financial wealth": {
+            "Total": 47458.0,
+            "Men": 47458.0,
+            "Women": 47458.0
+        },
+        "Employment rate": {
+            "Total": 72.0,
+            "Men": 78.0,
+            "Women": 67.0,
+            "High": 86.0,
+            "Low": 50.0
+        },
+        "Job security": {
+            "Total": 9.5,
+            "Men": 8.3,
+            "Women": 10.7
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.07,
+            "Men": 1.1,
+            "Women": 1.04241125,
+            "High": 0.6,
+            "Low": 2.12
+        },
+        "Personal earnings": {
+            "Total": 43688.0,
+            "Men": 47817.0,
+            "Women": 36272.0,
+            "High": 55997.0,
+            "Low": 26006.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 92.0,
+            "Women": 96.0,
+            "High": 97.0,
+            "Low": 96.0
+        },
+        "Educational attainment": {
+            "Total": 82.0,
+            "Men": 88.0,
+            "Women": 77.0
+        },
+        "Student skills": {
+            "Total": 487.0,
+            "Men": 484.0,
+            "Women": 489.0,
+            "High": 548.0,
+            "Low": 431.0
+        },
+        "Years in education": {
+            "Total": 16.9,
+            "Men": 16.7,
+            "Women": 17.1
+        },
+        "Air pollution": {
+            "Total": 27.0,
+            "Men": 27.0,
+            "Women": 27.0
+        },
+        "Water quality": {
+            "Total": 96.0,
+            "Men": 96.0,
+            "Women": 96.0,
+            "High": 97.0,
+            "Low": 99.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.1,
+            "Men": 7.1,
+            "Women": 7.1
+        },
+        "Voter turnout": {
+            "Total": 82.0,
+            "Men": 84.0,
+            "Women": 80.0,
+            "High": 90.0,
+            "Low": 79.0
+        },
+        "Life expectancy": {
+            "Total": 81.1,
+            "Men": 78.3,
+            "Women": 83.9
+        },
+        "Self-reported health": {
+            "Total": 69.0,
+            "Men": 71.0,
+            "Women": 67.0,
+            "High": 82.0,
+            "Low": 54.0
+        },
+        "Life satisfaction": {
+            "Total": 7.4,
+            "Men": 7.3,
+            "Women": 7.5,
+            "High": 7.8,
+            "Low": 6.9
+        },
+        "Assault rate": {
+            "Total": 3.0,
+            "Men": 4.5,
+            "Women": 1.7
+        },
+        "Homicide rate": {
+            "Total": 0.6,
+            "Men": 0.8,
+            "Women": 0.4
+        },
+        "Employees working very long hours": {
+            "Total": 8.76,
+            "Men": 13.47,
+            "Women": 3.58
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.46,
+            "Men": 14.6,
+            "Women": 14.15
+        }
+    },
+    "BEL": {
+        "Dwellings without basic facilities": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Housing expenditure": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Rooms per person": {
+            "Total": 2.2,
+            "Men": 2.2,
+            "Women": 2.2
+        },
+        "Household net adjusted disposable income": {
+            "Total": 26874.0,
+            "Men": 26874.0,
+            "Women": 26874.0,
+            "High": 47038.0,
+            "Low": 12075.0
+        },
+        "Household net financial wealth": {
+            "Total": 74007.0,
+            "Men": 74007.0,
+            "Women": 74007.0
+        },
+        "Employment rate": {
+            "Total": 62.0,
+            "Men": 67.0,
+            "Women": 57.0,
+            "High": 82.0,
+            "Low": 39.0
+        },
+        "Job security": {
+            "Total": 7.4,
+            "Men": 7.6,
+            "Women": 7.3
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.45,
+            "Men": 3.35,
+            "Women": 3.573827775,
+            "High": 1.86,
+            "Low": 6.42
+        },
+        "Personal earnings": {
+            "Total": 44321.0,
+            "Men": 45449.0,
+            "Women": 40893.0,
+            "High": 53577.0,
+            "Low": 30923.0
+        },
+        "Quality of support network": {
+            "Total": 92.0,
+            "Men": 93.0,
+            "Women": 92.0,
+            "High": 93.0,
+            "Low": 87.0
+        },
+        "Educational attainment": {
+            "Total": 70.0,
+            "Men": 70.0,
+            "Women": 71.0
+        },
+        "Student skills": {
+            "Total": 509.0,
+            "Men": 509.0,
+            "Women": 509.0,
+            "High": 576.0,
+            "Low": 448.0
+        },
+        "Years in education": {
+            "Total": 18.7,
+            "Men": 18.2,
+            "Women": 19.3
+        },
+        "Air pollution": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Water quality": {
+            "Total": 80.0,
+            "Men": 82.0,
+            "Women": 79.0,
+            "High": 80.0,
+            "Low": 89.0
+        },
+        "Consultation on rule-making": {
+            "Total": 4.5,
+            "Men": 4.5,
+            "Women": 4.5
+        },
+        "Voter turnout": {
+            "Total": 89.0,
+            "Men": 91.0,
+            "Women": 88.0,
+            "High": 98.0,
+            "Low": 92.0
+        },
+        "Life expectancy": {
+            "Total": 80.5,
+            "Men": 77.8,
+            "Women": 83.2
+        },
+        "Self-reported health": {
+            "Total": 73.0,
+            "Men": 75.0,
+            "Women": 71.0,
+            "High": 87.0,
+            "Low": 57.0
+        },
+        "Life satisfaction": {
+            "Total": 6.9,
+            "Men": 6.8,
+            "Women": 7.0,
+            "High": 7.5,
+            "Low": 6.1
+        },
+        "Assault rate": {
+            "Total": 6.7,
+            "Men": 6.2,
+            "Women": 7.0
+        },
+        "Homicide rate": {
+            "Total": 1.7,
+            "Men": 2.0,
+            "Women": 1.3
+        },
+        "Employees working very long hours": {
+            "Total": 4.43,
+            "Men": 6.56,
+            "Women": 2.12
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.71,
+            "Men": 15.82,
+            "Women": 15.47
+        }
+    },
+    "CAN": {
+        "Dwellings without basic facilities": {
+            "Total": 0.2,
+            "Men": 0.2,
+            "Women": 0.2
+        },
+        "Housing expenditure": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Rooms per person": {
+            "Total": 2.6,
+            "Men": 2.6,
+            "Women": 2.6
+        },
+        "Household net adjusted disposable income": {
+            "Total": 28194.0,
+            "Men": 28194.0,
+            "Women": 28194.0,
+            "High": 55718.0,
+            "Low": 10526.0
+        },
+        "Household net financial wealth": {
+            "Total": 63852.0,
+            "Men": 63852.0,
+            "Women": 63852.0
+        },
+        "Employment rate": {
+            "Total": 72.0,
+            "Men": 75.0,
+            "Women": 69.0,
+            "High": 81.0,
+            "Low": 47.0
+        },
+        "Job security": {
+            "Total": 11.3,
+            "Men": 11.3,
+            "Women": 10.5
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.0,
+            "Men": 1.13,
+            "Women": 0.86253676,
+            "High": 0.7,
+            "Low": 2.05
+        },
+        "Personal earnings": {
+            "Total": 42253.0,
+            "Men": 45880.0,
+            "Women": 37892.0,
+            "High": 58316.0,
+            "Low": 24547.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 96.0,
+            "Women": 93.0,
+            "High": 93.0,
+            "Low": 97.0
+        },
+        "Educational attainment": {
+            "Total": 88.0,
+            "Men": 87.0,
+            "Women": 90.0
+        },
+        "Student skills": {
+            "Total": 527.0,
+            "Men": 524.0,
+            "Women": 530.0,
+            "High": 567.0,
+            "Low": 492.0
+        },
+        "Years in education": {
+            "Total": 17.0,
+            "Men": 16.6,
+            "Women": 17.4
+        },
+        "Air pollution": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Water quality": {
+            "Total": 89.0,
+            "Men": 91.0,
+            "Women": 87.0,
+            "High": 91.0,
+            "Low": 93.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.5
+        },
+        "Voter turnout": {
+            "Total": 61.0,
+            "Men": 61.0,
+            "Women": 62.0,
+            "High": 63.0,
+            "Low": 60.0
+        },
+        "Life expectancy": {
+            "Total": 81.0,
+            "Men": 78.7,
+            "Women": 83.3
+        },
+        "Self-reported health": {
+            "Total": 88.0,
+            "Men": 89.0,
+            "Women": 88.0,
+            "High": 95.0,
+            "Low": 79.0
+        },
+        "Life satisfaction": {
+            "Total": 7.4,
+            "Men": 7.3,
+            "Women": 7.5,
+            "High": 7.7,
+            "Low": 7.5
+        },
+        "Assault rate": {
+            "Total": 1.3,
+            "Men": 1.3,
+            "Women": 1.3
+        },
+        "Homicide rate": {
+            "Total": 1.6,
+            "Men": 2.4,
+            "Women": 0.8
+        },
+        "Employees working very long hours": {
+            "Total": 3.91,
+            "Men": 6.37,
+            "Women": 1.46
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.25,
+            "Men": 14.33,
+            "Women": 14.15
+        }
+    },
+    "CZE": {
+        "Dwellings without basic facilities": {
+            "Total": 0.7,
+            "Men": 0.7,
+            "Women": 0.7
+        },
+        "Housing expenditure": {
+            "Total": 25.0,
+            "Men": 25.0,
+            "Women": 25.0
+        },
+        "Rooms per person": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Household net adjusted disposable income": {
+            "Total": 16957.0,
+            "Men": 16957.0,
+            "Women": 16957.0,
+            "High": 30190.0,
+            "Low": 8466.0
+        },
+        "Household net financial wealth": {
+            "Total": 14749.0,
+            "Men": 14749.0,
+            "Women": 14749.0
+        },
+        "Employment rate": {
+            "Total": 66.0,
+            "Men": 74.0,
+            "Women": 57.0,
+            "High": 82.0,
+            "Low": 22.0
+        },
+        "Job security": {
+            "Total": 6.7,
+            "Men": 5.9,
+            "Women": 7.5
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.8,
+            "Men": 2.42,
+            "Women": 3.278901329,
+            "High": 1.09,
+            "Low": 9.71
+        },
+        "Personal earnings": {
+            "Total": 19312.0,
+            "Men": 21684.0,
+            "Women": 16226.0,
+            "High": 23141.0,
+            "Low": 11276.0
+        },
+        "Quality of support network": {
+            "Total": 89.0,
+            "Men": 87.0,
+            "Women": 90.0,
+            "High": 89.0,
+            "Low": 91.0
+        },
+        "Educational attainment": {
+            "Total": 92.0,
+            "Men": 95.0,
+            "Women": 89.0
+        },
+        "Student skills": {
+            "Total": 490.0,
+            "Men": 483.0,
+            "Women": 499.0,
+            "High": 540.0,
+            "Low": 444.0
+        },
+        "Years in education": {
+            "Total": 17.8,
+            "Men": 17.3,
+            "Women": 18.3
+        },
+        "Air pollution": {
+            "Total": 17.0,
+            "Men": 17.0,
+            "Women": 17.0
+        },
+        "Water quality": {
+            "Total": 84.0,
+            "Men": 85.0,
+            "Women": 84.0,
+            "High": 86.0,
+            "Low": 82.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.8,
+            "Men": 6.8,
+            "Women": 6.8
+        },
+        "Voter turnout": {
+            "Total": 63.0,
+            "Men": 62.0,
+            "Women": 63.0,
+            "High": 72.0,
+            "Low": 52.0
+        },
+        "Life expectancy": {
+            "Total": 78.0,
+            "Men": 74.8,
+            "Women": 81.1
+        },
+        "Self-reported health": {
+            "Total": 59.0,
+            "Men": 62.0,
+            "Women": 57.0,
+            "High": 75.0,
+            "Low": 48.0
+        },
+        "Life satisfaction": {
+            "Total": 6.3,
+            "Men": 6.4,
+            "Women": 6.3,
+            "High": 6.9,
+            "Low": 6.6
+        },
+        "Assault rate": {
+            "Total": 3.0,
+            "Men": 4.1,
+            "Women": 1.9
+        },
+        "Homicide rate": {
+            "Total": 1.7,
+            "Men": 2.1,
+            "Women": 1.3
+        },
+        "Employees working very long hours": {
+            "Total": 7.58,
+            "Men": 11.19,
+            "Women": 3.29
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.34,
+            "Men": 14.51,
+            "Women": 14.07
+        }
+    },
+    "DNK": {
+        "Dwellings without basic facilities": {
+            "Total": 0.6,
+            "Men": 0.6,
+            "Women": 0.6
+        },
+        "Housing expenditure": {
+            "Total": 24.0,
+            "Men": 24.0,
+            "Women": 24.0
+        },
+        "Rooms per person": {
+            "Total": 1.9,
+            "Men": 1.9,
+            "Women": 1.9
+        },
+        "Household net adjusted disposable income": {
+            "Total": 24682.0,
+            "Men": 24682.0,
+            "Women": 24682.0,
+            "High": 42795.0,
+            "Low": 11946.0
+        },
+        "Household net financial wealth": {
+            "Total": 36184.0,
+            "Men": 36184.0,
+            "Women": 36184.0
+        },
+        "Employment rate": {
+            "Total": 73.0,
+            "Men": 76.0,
+            "Women": 70.0,
+            "High": 85.0,
+            "Low": 59.0
+        },
+        "Job security": {
+            "Total": 12.9,
+            "Men": 14.0,
+            "Women": 11.8
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.85,
+            "Men": 2.01,
+            "Women": 1.663329249,
+            "High": 1.18,
+            "Low": 2.79
+        },
+        "Personal earnings": {
+            "Total": 45802.0,
+            "Men": 48692.0,
+            "Women": 41527.0,
+            "High": 57073.0,
+            "Low": 29513.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 96.0,
+            "Women": 93.0,
+            "High": 93.0,
+            "Low": 90.0
+        },
+        "Educational attainment": {
+            "Total": 76.0,
+            "Men": 77.0,
+            "Women": 75.0
+        },
+        "Student skills": {
+            "Total": 499.0,
+            "Men": 499.0,
+            "Women": 499.0,
+            "High": 545.0,
+            "Low": 452.0
+        },
+        "Years in education": {
+            "Total": 18.8,
+            "Men": 18.3,
+            "Women": 19.3
+        },
+        "Air pollution": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Water quality": {
+            "Total": 94.0,
+            "Men": 96.0,
+            "Women": 92.0,
+            "High": 95.0,
+            "Low": 90.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.0,
+            "Men": 7.0,
+            "Women": 7.0
+        },
+        "Voter turnout": {
+            "Total": 88.0,
+            "Men": 88.0,
+            "Women": 88.0,
+            "High": 90.0,
+            "Low": 86.0
+        },
+        "Life expectancy": {
+            "Total": 79.9,
+            "Men": 77.8,
+            "Women": 81.9
+        },
+        "Self-reported health": {
+            "Total": 70.0,
+            "Men": 72.0,
+            "Women": 69.0,
+            "High": 81.0,
+            "Low": 67.0
+        },
+        "Life satisfaction": {
+            "Total": 7.5,
+            "Men": 7.5,
+            "Women": 7.5,
+            "High": 7.8,
+            "Low": 7.2
+        },
+        "Assault rate": {
+            "Total": 3.9,
+            "Men": 4.9,
+            "Women": 3.1
+        },
+        "Homicide rate": {
+            "Total": 0.9,
+            "Men": 1.1,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 1.97,
+            "Men": 3.08,
+            "Women": 0.83
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 16.06,
+            "Men": 16.06,
+            "Women": 16.06
+        }
+    },
+    "FIN": {
+        "Dwellings without basic facilities": {
+            "Total": 0.7,
+            "Men": 0.7,
+            "Women": 0.7
+        },
+        "Housing expenditure": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Rooms per person": {
+            "Total": 1.9,
+            "Men": 1.9,
+            "Women": 1.9
+        },
+        "Household net adjusted disposable income": {
+            "Total": 25739.0,
+            "Men": 25739.0,
+            "Women": 25739.0,
+            "High": 44992.0,
+            "Low": 12236.0
+        },
+        "Household net financial wealth": {
+            "Total": 22335.0,
+            "Men": 22335.0,
+            "Women": 22335.0
+        },
+        "Employment rate": {
+            "Total": 69.0,
+            "Men": 71.0,
+            "Women": 68.0,
+            "High": 85.0,
+            "Low": 42.0
+        },
+        "Job security": {
+            "Total": 14.5,
+            "Men": 14.3,
+            "Women": 14.8
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.75,
+            "Men": 2.22,
+            "Women": 1.241301908,
+            "High": 0.93,
+            "Low": 3.48
+        },
+        "Personal earnings": {
+            "Total": 36468.0,
+            "Men": 40510.0,
+            "Women": 32162.0,
+            "High": 45547.0,
+            "Low": 24691.0
+        },
+        "Quality of support network": {
+            "Total": 92.0,
+            "Men": 90.0,
+            "Women": 94.0,
+            "High": 98.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 83.0,
+            "Men": 81.0,
+            "Women": 85.0
+        },
+        "Student skills": {
+            "Total": 543.0,
+            "Men": 532.0,
+            "Women": 555.0,
+            "High": 573.0,
+            "Low": 511.0
+        },
+        "Years in education": {
+            "Total": 19.6,
+            "Men": 19.2,
+            "Women": 20.1
+        },
+        "Air pollution": {
+            "Total": 15.0,
+            "Men": 15.0,
+            "Women": 15.0
+        },
+        "Water quality": {
+            "Total": 92.0,
+            "Men": 93.0,
+            "Women": 92.0,
+            "High": 93.0,
+            "Low": 91.0
+        },
+        "Consultation on rule-making": {
+            "Total": 9.0,
+            "Men": 9.0,
+            "Women": 9.0
+        },
+        "Voter turnout": {
+            "Total": 69.0,
+            "Men": 70.0,
+            "Women": 68.0,
+            "High": 74.0,
+            "Low": 61.0
+        },
+        "Life expectancy": {
+            "Total": 80.6,
+            "Men": 77.3,
+            "Women": 83.8
+        },
+        "Self-reported health": {
+            "Total": 69.0,
+            "Men": 70.0,
+            "Women": 67.0,
+            "High": 81.0,
+            "Low": 55.0
+        },
+        "Life satisfaction": {
+            "Total": 7.4,
+            "Men": 7.2,
+            "Women": 7.6,
+            "High": 8.0,
+            "Low": 7.0
+        },
+        "Assault rate": {
+            "Total": 2.4,
+            "Men": 3.9,
+            "Women": 0.9
+        },
+        "Homicide rate": {
+            "Total": 2.2,
+            "Men": 3.2,
+            "Women": 1.2
+        },
+        "Employees working very long hours": {
+            "Total": 3.89,
+            "Men": 5.96,
+            "Women": 1.88
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.89,
+            "Men": 15.03,
+            "Women": 14.66
+        }
+    },
+    "FRA": {
+        "Dwellings without basic facilities": {
+            "Total": 0.6,
+            "Men": 0.6,
+            "Women": 0.6
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 28310.0,
+            "Men": 28310.0,
+            "Women": 28310.0,
+            "High": 55477.0,
+            "Low": 12216.0
+        },
+        "Household net financial wealth": {
+            "Total": 46520.0,
+            "Men": 46520.0,
+            "Women": 46520.0
+        },
+        "Employment rate": {
+            "Total": 64.0,
+            "Men": 68.0,
+            "Women": 60.0,
+            "High": 80.0,
+            "Low": 45.0
+        },
+        "Job security": {
+            "Total": 9.3,
+            "Men": 9.7,
+            "Women": 8.9
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.83,
+            "Men": 3.71,
+            "Women": 3.96569359,
+            "High": 2.28,
+            "Low": 6.33
+        },
+        "Personal earnings": {
+            "Total": 37505.0,
+            "Men": 40793.0,
+            "Women": 32656.0,
+            "High": 45292.0,
+            "Low": 23069.0
+        },
+        "Quality of support network": {
+            "Total": 93.0,
+            "Men": 94.0,
+            "Women": 93.0,
+            "High": 95.0,
+            "Low": 90.0
+        },
+        "Educational attainment": {
+            "Total": 71.0,
+            "Men": 72.0,
+            "Women": 70.0
+        },
+        "Student skills": {
+            "Total": 497.0,
+            "Men": 493.0,
+            "Women": 500.0,
+            "High": 561.0,
+            "Low": 437.0
+        },
+        "Years in education": {
+            "Total": 16.4,
+            "Men": 16.1,
+            "Women": 16.7
+        },
+        "Air pollution": {
+            "Total": 12.0,
+            "Men": 12.0,
+            "Women": 12.0
+        },
+        "Water quality": {
+            "Total": 81.0,
+            "Men": 82.0,
+            "Women": 80.0,
+            "High": 80.0,
+            "Low": 81.0
+        },
+        "Consultation on rule-making": {
+            "Total": 3.5,
+            "Men": 3.5,
+            "Women": 3.5
+        },
+        "Voter turnout": {
+            "Total": 80.0,
+            "Men": 85.0,
+            "Women": 75.0,
+            "High": 89.0,
+            "Low": 79.0
+        },
+        "Life expectancy": {
+            "Total": 82.2,
+            "Men": 78.7,
+            "Women": 85.7
+        },
+        "Self-reported health": {
+            "Total": 67.0,
+            "Men": 71.0,
+            "Women": 64.0,
+            "High": 73.0,
+            "Low": 60.0
+        },
+        "Life satisfaction": {
+            "Total": 6.6,
+            "Men": 6.7,
+            "Women": 6.6,
+            "High": 7.2,
+            "Low": 5.9
+        },
+        "Assault rate": {
+            "Total": 5.0,
+            "Men": 5.6,
+            "Women": 4.4
+        },
+        "Homicide rate": {
+            "Total": 1.1,
+            "Men": 1.5,
+            "Women": 0.7
+        },
+        "Employees working very long hours": {
+            "Total": 8.96,
+            "Men": 12.44,
+            "Women": 5.41
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.33,
+            "Men": 15.55,
+            "Women": 14.9
+        }
+    },
+    "DEU": {
+        "Dwellings without basic facilities": {
+            "Total": 0.9,
+            "Men": 0.9,
+            "Women": 0.9
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 28799.0,
+            "Men": 28799.0,
+            "Women": 28799.0,
+            "High": 53978.0,
+            "Low": 12544.0
+        },
+        "Household net financial wealth": {
+            "Total": 44938.0,
+            "Men": 44938.0,
+            "Women": 44938.0
+        },
+        "Employment rate": {
+            "Total": 73.0,
+            "Men": 77.0,
+            "Women": 68.0,
+            "High": 88.0,
+            "Low": 46.0
+        },
+        "Job security": {
+            "Total": 8.3,
+            "Men": 8.3,
+            "Women": 8.2
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.84,
+            "Men": 3.04,
+            "Women": 2.603050902,
+            "High": 1.27,
+            "Low": 6.07
+        },
+        "Personal earnings": {
+            "Total": 39593.0,
+            "Men": 42340.0,
+            "Women": 34339.0,
+            "High": 51081.0,
+            "Low": 23625.0
+        },
+        "Quality of support network": {
+            "Total": 92.0,
+            "Men": 92.0,
+            "Women": 93.0,
+            "High": 94.0,
+            "Low": 93.0
+        },
+        "Educational attainment": {
+            "Total": 86.0,
+            "Men": 88.0,
+            "Women": 83.0
+        },
+        "Student skills": {
+            "Total": 510.0,
+            "Men": 507.0,
+            "Women": 513.0,
+            "High": 571.0,
+            "Low": 446.0
+        },
+        "Years in education": {
+            "Total": 17.9,
+            "Men": 18.0,
+            "Women": 17.7
+        },
+        "Air pollution": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Water quality": {
+            "Total": 93.0,
+            "Men": 95.0,
+            "Women": 92.0,
+            "High": 94.0,
+            "Low": 100.0
+        },
+        "Consultation on rule-making": {
+            "Total": 4.5,
+            "Men": 4.5,
+            "Women": 4.5
+        },
+        "Voter turnout": {
+            "Total": 71.0,
+            "Men": 72.0,
+            "Women": 70.0,
+            "High": 80.0,
+            "Low": 59.0
+        },
+        "Life expectancy": {
+            "Total": 80.8,
+            "Men": 78.4,
+            "Women": 83.2
+        },
+        "Self-reported health": {
+            "Total": 64.0,
+            "Men": 66.0,
+            "Women": 63.0,
+            "High": 77.0,
+            "Low": 51.0
+        },
+        "Life satisfaction": {
+            "Total": 6.7,
+            "Men": 6.7,
+            "Women": 6.7,
+            "High": 7.3,
+            "Low": 6.1
+        },
+        "Assault rate": {
+            "Total": 3.6,
+            "Men": 3.1,
+            "Women": 4.1
+        },
+        "Homicide rate": {
+            "Total": 0.8,
+            "Men": 0.9,
+            "Women": 0.8
+        },
+        "Employees working very long hours": {
+            "Total": 5.41,
+            "Men": 8.18,
+            "Women": 2.39
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.31,
+            "Men": 15.36,
+            "Women": 15.31
+        }
+    },
+    "GRC": {
+        "Dwellings without basic facilities": {
+            "Total": 0.9,
+            "Men": 0.9,
+            "Women": 0.9
+        },
+        "Housing expenditure": {
+            "Total": 27.0,
+            "Men": 27.0,
+            "Women": 27.0
+        },
+        "Rooms per person": {
+            "Total": 1.2,
+            "Men": 1.2,
+            "Women": 1.2
+        },
+        "Household net adjusted disposable income": {
+            "Total": 20440.0,
+            "Men": 20440.0,
+            "Women": 20440.0,
+            "High": 41155.0,
+            "Low": 7317.0
+        },
+        "Household net financial wealth": {
+            "Total": 13428.0,
+            "Men": 13428.0,
+            "Women": 13428.0
+        },
+        "Employment rate": {
+            "Total": 56.0,
+            "Men": 66.0,
+            "Women": 45.0,
+            "High": 73.0,
+            "Low": 45.0
+        },
+        "Job security": {
+            "Total": 4.7,
+            "Men": 4.8,
+            "Women": 4.7
+        },
+        "Long-term unemployment rate": {
+            "Total": 8.75,
+            "Men": 6.72,
+            "Women": 11.5254484,
+            "High": 6.88,
+            "Low": 8.98
+        },
+        "Personal earnings": {
+            "Total": 28011.0,
+            "Men": 29170.0,
+            "Women": 26454.0,
+            "High": 35752.0,
+            "Low": 16807.0
+        },
+        "Quality of support network": {
+            "Total": 81.0,
+            "Men": 82.0,
+            "Women": 80.0,
+            "High": 85.0,
+            "Low": 77.0
+        },
+        "Educational attainment": {
+            "Total": 65.0,
+            "Men": 65.0,
+            "Women": 65.0
+        },
+        "Student skills": {
+            "Total": 473.0,
+            "Men": 466.0,
+            "Women": 480.0,
+            "High": 523.0,
+            "Low": 427.0
+        },
+        "Years in education": {
+            "Total": 18.5,
+            "Men": 18.4,
+            "Women": 18.6
+        },
+        "Air pollution": {
+            "Total": 31.0,
+            "Men": 31.0,
+            "Women": 31.0
+        },
+        "Water quality": {
+            "Total": 69.0,
+            "Men": 68.0,
+            "Women": 70.0,
+            "High": 72.0,
+            "Low": 69.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.5,
+            "Men": 6.5,
+            "Women": 6.5
+        },
+        "Voter turnout": {
+            "Total": 62.0,
+            "Men": 62.0,
+            "Women": 63.0,
+            "High": 70.0,
+            "Low": 57.0
+        },
+        "Life expectancy": {
+            "Total": 80.7,
+            "Men": 78.3,
+            "Women": 83.1
+        },
+        "Self-reported health": {
+            "Total": 76.0,
+            "Men": 79.0,
+            "Women": 74.0,
+            "High": 87.0,
+            "Low": 70.0
+        },
+        "Life satisfaction": {
+            "Total": 5.1,
+            "Men": 5.0,
+            "Women": 5.1,
+            "High": 5.8,
+            "Low": 4.2
+        },
+        "Assault rate": {
+            "Total": 3.7,
+            "Men": 3.6,
+            "Women": 3.8
+        },
+        "Homicide rate": {
+            "Total": 1.5,
+            "Men": 2.6,
+            "Women": 0.5
+        },
+        "Employees working very long hours": {
+            "Total": 5.23,
+            "Men": 6.28,
+            "Women": 3.85
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.65,
+            "Men": 14.8,
+            "Women": 14.4
+        }
+    },
+    "HUN": {
+        "Dwellings without basic facilities": {
+            "Total": 4.7,
+            "Men": 4.7,
+            "Women": 4.7
+        },
+        "Housing expenditure": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Rooms per person": {
+            "Total": 1.0,
+            "Men": 1.0,
+            "Women": 1.0
+        },
+        "Household net adjusted disposable income": {
+            "Total": 13858.0,
+            "Men": 13858.0,
+            "Women": 13858.0,
+            "High": 25395.0,
+            "Low": 6273.0
+        },
+        "Household net financial wealth": {
+            "Total": 12390.0,
+            "Men": 12390.0,
+            "Women": 12390.0
+        },
+        "Employment rate": {
+            "Total": 56.0,
+            "Men": 61.0,
+            "Women": 51.0,
+            "High": 78.0,
+            "Low": 26.0
+        },
+        "Job security": {
+            "Total": 7.8,
+            "Men": 8.7,
+            "Women": 7.0
+        },
+        "Long-term unemployment rate": {
+            "Total": 5.36,
+            "Men": 5.36,
+            "Women": 5.364952829,
+            "High": 2.28,
+            "Low": 12.16
+        },
+        "Personal earnings": {
+            "Total": 19437.0,
+            "Men": 21111.0,
+            "Women": 17666.0,
+            "High": 24465.0,
+            "Low": 9595.0
+        },
+        "Quality of support network": {
+            "Total": 90.0,
+            "Men": 90.0,
+            "Women": 90.0,
+            "High": 95.0,
+            "Low": 88.0
+        },
+        "Educational attainment": {
+            "Total": 81.0,
+            "Men": 84.0,
+            "Women": 78.0
+        },
+        "Student skills": {
+            "Total": 496.0,
+            "Men": 491.0,
+            "Women": 500.0,
+            "High": 560.0,
+            "Low": 427.0
+        },
+        "Years in education": {
+            "Total": 17.5,
+            "Men": 17.2,
+            "Women": 17.8
+        },
+        "Air pollution": {
+            "Total": 15.0,
+            "Men": 15.0,
+            "Women": 15.0
+        },
+        "Water quality": {
+            "Total": 76.0,
+            "Men": 78.0,
+            "Women": 75.0,
+            "High": 74.0,
+            "Low": 77.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.9,
+            "Men": 7.9,
+            "Women": 7.9
+        },
+        "Voter turnout": {
+            "Total": 47.0,
+            "Men": 47.0,
+            "Women": 46.0,
+            "High": 53.0,
+            "Low": 39.0
+        },
+        "Life expectancy": {
+            "Total": 75.0,
+            "Men": 71.2,
+            "Women": 78.7
+        },
+        "Self-reported health": {
+            "Total": 55.0,
+            "Men": 59.0,
+            "Women": 52.0,
+            "High": 69.0,
+            "Low": 51.0
+        },
+        "Life satisfaction": {
+            "Total": 4.7,
+            "Men": 4.8,
+            "Women": 4.6,
+            "High": 5.6,
+            "Low": 4.1
+        },
+        "Assault rate": {
+            "Total": 3.6,
+            "Men": 3.4,
+            "Women": 3.8
+        },
+        "Homicide rate": {
+            "Total": 1.3,
+            "Men": 1.5,
+            "Women": 1.1
+        },
+        "Employees working very long hours": {
+            "Total": 3.1,
+            "Men": 4.64,
+            "Women": 1.49
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.9,
+            "Men": 15.04,
+            "Women": 14.67
+        }
+    },
+    "ISL": {
+        "Dwellings without basic facilities": {
+            "Total": 0.4,
+            "Men": 0.4,
+            "Women": 0.4
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.6,
+            "Men": 1.6,
+            "Women": 1.6
+        },
+        "Household net adjusted disposable income": {
+            "Total": 21201.0,
+            "Men": 21201.0,
+            "Women": 21201.0,
+            "High": 38406.0,
+            "Low": 10071.0
+        },
+        "Household net financial wealth": {
+            "Total": 31182.0,
+            "Men": 31182.0,
+            "Women": 31182.0
+        },
+        "Employment rate": {
+            "Total": 79.0,
+            "Men": 81.0,
+            "Women": 77.0,
+            "High": 89.0,
+            "Low": 71.0
+        },
+        "Job security": {
+            "Total": 10.8,
+            "Men": 10.4,
+            "Women": 11.2
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.97,
+            "Men": 2.22,
+            "Women": 1.688344144,
+            "High": 0.95,
+            "Low": 2.84
+        },
+        "Personal earnings": {
+            "Total": 37290.0,
+            "Men": 48399.0,
+            "Women": 38434.0,
+            "High": 55075.0,
+            "Low": 26879.0
+        },
+        "Quality of support network": {
+            "Total": 98.0,
+            "Men": 98.0,
+            "Women": 97.0,
+            "High": 97.0,
+            "Low": 98.0
+        },
+        "Educational attainment": {
+            "Total": 67.0,
+            "Men": 67.0,
+            "Women": 66.0
+        },
+        "Student skills": {
+            "Total": 501.0,
+            "Men": 494.0,
+            "Women": 507.0,
+            "High": 534.0,
+            "Low": 464.0
+        },
+        "Years in education": {
+            "Total": 19.4,
+            "Men": 18.6,
+            "Women": 20.4
+        },
+        "Air pollution": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Water quality": {
+            "Total": 97.0,
+            "Men": 98.0,
+            "Women": 97.0,
+            "High": 96.0,
+            "Low": 98.0
+        },
+        "Consultation on rule-making": {
+            "Total": 5.1,
+            "Men": 5.1,
+            "Women": 5.1
+        },
+        "Voter turnout": {
+            "Total": 85.0,
+            "Men": 84.0,
+            "Women": 86.0,
+            "High": 88.0,
+            "Low": 77.0
+        },
+        "Life expectancy": {
+            "Total": 82.4,
+            "Men": 80.7,
+            "Women": 84.1
+        },
+        "Self-reported health": {
+            "Total": 77.0,
+            "Men": 79.0,
+            "Women": 76.0,
+            "High": 85.0,
+            "Low": 73.0
+        },
+        "Life satisfaction": {
+            "Total": 7.6,
+            "Men": 7.5,
+            "Women": 7.7,
+            "High": 7.8,
+            "Low": 7.5
+        },
+        "Assault rate": {
+            "Total": 2.7,
+            "Men": 3.0,
+            "Women": 2.3
+        },
+        "Homicide rate": {
+            "Total": 0.3,
+            "Men": 0.0,
+            "Women": 0.0
+        },
+        "Employees working very long hours": {
+            "Total": 13.45,
+            "Men": 18.94,
+            "Women": 7.05
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.06,
+            "Men": 14.24,
+            "Women": 13.77
+        }
+    },
+    "IRL": {
+        "Dwellings without basic facilities": {
+            "Total": 0.2,
+            "Men": 0.2,
+            "Women": 0.2
+        },
+        "Housing expenditure": {
+            "Total": 18.0,
+            "Men": 18.0,
+            "Women": 18.0
+        },
+        "Rooms per person": {
+            "Total": 2.1,
+            "Men": 2.1,
+            "Women": 2.1
+        },
+        "Household net adjusted disposable income": {
+            "Total": 24104.0,
+            "Men": 24104.0,
+            "Women": 24104.0,
+            "High": 49125.0,
+            "Low": 9169.0
+        },
+        "Household net financial wealth": {
+            "Total": 27378.0,
+            "Men": 27378.0,
+            "Women": 27378.0
+        },
+        "Employment rate": {
+            "Total": 60.0,
+            "Men": 63.0,
+            "Women": 56.0,
+            "High": 79.0,
+            "Low": 36.0
+        },
+        "Job security": {
+            "Total": 6.9,
+            "Men": 7.7,
+            "Women": 6.2
+        },
+        "Long-term unemployment rate": {
+            "Total": 8.52,
+            "Men": 11.46,
+            "Women": 4.909896073,
+            "High": 4.73,
+            "Low": 13.75
+        },
+        "Personal earnings": {
+            "Total": 50109.0,
+            "Men": 53324.0,
+            "Women": 46661.0,
+            "High": 67630.0,
+            "Low": 28182.0
+        },
+        "Quality of support network": {
+            "Total": 96.0,
+            "Men": 95.0,
+            "Women": 98.0,
+            "High": 98.0,
+            "Low": 100.0
+        },
+        "Educational attainment": {
+            "Total": 73.0,
+            "Men": 71.0,
+            "Women": 76.0
+        },
+        "Student skills": {
+            "Total": 497.0,
+            "Men": 491.0,
+            "Women": 503.0,
+            "High": 540.0,
+            "Low": 452.0
+        },
+        "Years in education": {
+            "Total": 17.9,
+            "Men": 17.9,
+            "Women": 17.9
+        },
+        "Air pollution": {
+            "Total": 12.0,
+            "Men": 12.0,
+            "Women": 12.0
+        },
+        "Water quality": {
+            "Total": 84.0,
+            "Men": 84.0,
+            "Women": 83.0,
+            "High": 80.0,
+            "Low": 92.0
+        },
+        "Consultation on rule-making": {
+            "Total": 9.0,
+            "Men": 9.0,
+            "Women": 9.0
+        },
+        "Voter turnout": {
+            "Total": 70.0,
+            "Men": 73.0,
+            "Women": 67.0,
+            "High": 69.0,
+            "Low": 67.0
+        },
+        "Life expectancy": {
+            "Total": 80.6,
+            "Men": 78.3,
+            "Women": 82.8
+        },
+        "Self-reported health": {
+            "Total": 83.0,
+            "Men": 83.0,
+            "Women": 82.0,
+            "High": 92.0,
+            "Low": 78.0
+        },
+        "Life satisfaction": {
+            "Total": 7.0,
+            "Men": 6.7,
+            "Women": 7.2,
+            "High": 7.1,
+            "Low": 7.3
+        },
+        "Assault rate": {
+            "Total": 2.6,
+            "Men": 2.1,
+            "Women": 3.1
+        },
+        "Homicide rate": {
+            "Total": 1.2,
+            "Men": 2.0,
+            "Women": 0.4
+        },
+        "Employees working very long hours": {
+            "Total": 3.94,
+            "Men": 6.67,
+            "Women": 1.47
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.18,
+            "Men": 15.31,
+            "Women": 14.97
+        }
+    },
+    "ITA": {
+        "Dwellings without basic facilities": {
+            "Total": 0.4,
+            "Men": 0.4,
+            "Women": 0.4
+        },
+        "Housing expenditure": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Rooms per person": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Household net adjusted disposable income": {
+            "Total": 24216.0,
+            "Men": 24216.0,
+            "Women": 24216.0,
+            "High": 46751.0,
+            "Low": 8949.0
+        },
+        "Household net financial wealth": {
+            "Total": 55255.0,
+            "Men": 55255.0,
+            "Women": 55255.0
+        },
+        "Employment rate": {
+            "Total": 57.0,
+            "Men": 67.0,
+            "Women": 47.0,
+            "High": 76.0,
+            "Low": 44.0
+        },
+        "Job security": {
+            "Total": 6.9,
+            "Men": 7.0,
+            "Women": 6.7
+        },
+        "Long-term unemployment rate": {
+            "Total": 4.36,
+            "Men": 3.89,
+            "Women": 5.034468687,
+            "High": 3.01,
+            "Low": 5.45
+        },
+        "Personal earnings": {
+            "Total": 33947.0,
+            "Men": 35667.0,
+            "Women": 31242.0,
+            "High": 40560.0,
+            "Low": 24287.0
+        },
+        "Quality of support network": {
+            "Total": 86.0,
+            "Men": 85.0,
+            "Women": 87.0,
+            "High": 89.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 55.0,
+            "Men": 54.0,
+            "Women": 56.0
+        },
+        "Student skills": {
+            "Total": 486.0,
+            "Men": 481.0,
+            "Women": 492.0,
+            "High": 528.0,
+            "Low": 441.0
+        },
+        "Years in education": {
+            "Total": 17.1,
+            "Men": 16.6,
+            "Women": 17.5
+        },
+        "Air pollution": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Water quality": {
+            "Total": 71.0,
+            "Men": 73.0,
+            "Women": 69.0,
+            "High": 68.0,
+            "Low": 70.0
+        },
+        "Consultation on rule-making": {
+            "Total": 5.0,
+            "Men": 5.0,
+            "Women": 5.0
+        },
+        "Voter turnout": {
+            "Total": 81.0,
+            "Men": 83.0,
+            "Women": 78.0,
+            "High": 91.0,
+            "Low": 78.0
+        },
+        "Life expectancy": {
+            "Total": 82.7,
+            "Men": 80.1,
+            "Women": 85.3
+        },
+        "Self-reported health": {
+            "Total": 64.0,
+            "Men": 68.0,
+            "Women": 61.0,
+            "High": 74.0,
+            "Low": 59.0
+        },
+        "Life satisfaction": {
+            "Total": 5.8,
+            "Men": 6.0,
+            "Women": 5.7,
+            "High": 6.7,
+            "Low": 5.3
+        },
+        "Assault rate": {
+            "Total": 4.7,
+            "Men": 5.4,
+            "Women": 4.1
+        },
+        "Homicide rate": {
+            "Total": 0.9,
+            "Men": 1.4,
+            "Women": 0.4
+        },
+        "Employees working very long hours": {
+            "Total": 4.07,
+            "Men": 5.7,
+            "Women": 2.03
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.89,
+            "Men": 15.19,
+            "Women": 14.08
+        }
+    },
+    "JPN": {
+        "Dwellings without basic facilities": {
+            "Total": 6.4,
+            "Men": 6.4,
+            "Women": 6.4
+        },
+        "Housing expenditure": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 24147.0,
+            "Men": 24147.0,
+            "Women": 24147.0,
+            "High": 48311.0,
+            "Low": 7808.0
+        },
+        "Household net financial wealth": {
+            "Total": 74966.0,
+            "Men": 74966.0,
+            "Women": 74966.0
+        },
+        "Employment rate": {
+            "Total": 70.0,
+            "Men": 80.0,
+            "Women": 60.0,
+            "High": 75.0,
+            "Low": 61.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.78,
+            "Men": 2.27,
+            "Women": 1.103937207,
+            "High": 1.44,
+            "Low": 2.42
+        },
+        "Personal earnings": {
+            "Total": 35143.0,
+            "Men": 38873.0,
+            "Women": 27459.0,
+            "High": 45161.0,
+            "Low": 22154.0
+        },
+        "Quality of support network": {
+            "Total": 90.0,
+            "Men": 90.0,
+            "Women": 90.0,
+            "High": 93.0,
+            "Low": 86.0
+        },
+        "Educational attainment": {
+            "Total": 92.0,
+            "Men": 93.0,
+            "Women": 91.0
+        },
+        "Student skills": {
+            "Total": 529.0,
+            "Men": 523.0,
+            "Women": 537.0,
+            "High": 567.0,
+            "Low": 492.0
+        },
+        "Years in education": {
+            "Total": 18.7,
+            "Men": 18.3,
+            "Women": 19.2
+        },
+        "Air pollution": {
+            "Total": 25.0,
+            "Men": 25.0,
+            "Women": 25.0
+        },
+        "Water quality": {
+            "Total": 86.0,
+            "Men": 88.0,
+            "Women": 83.0,
+            "High": 86.0,
+            "Low": 85.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.3,
+            "Men": 7.3,
+            "Women": 7.3
+        },
+        "Voter turnout": {
+            "Total": 69.0,
+            "Men": 70.0,
+            "Women": 69.0,
+            "High": 69.0,
+            "Low": 68.0
+        },
+        "Life expectancy": {
+            "Total": 82.7,
+            "Men": 79.4,
+            "Women": 85.9
+        },
+        "Self-reported health": {
+            "Total": 30.0,
+            "Men": 32.0,
+            "Women": 29.0,
+            "High": 35.0,
+            "Low": 24.0
+        },
+        "Life satisfaction": {
+            "Total": 6.0,
+            "Men": 5.8,
+            "Women": 6.2,
+            "High": 6.5,
+            "Low": 5.6
+        },
+        "Assault rate": {
+            "Total": 1.4,
+            "Men": 1.2,
+            "Women": 1.5
+        },
+        "Homicide rate": {
+            "Total": 0.4,
+            "Men": 0.4,
+            "Women": 0.4
+        },
+        "Employees working very long hours": {
+            "Total": 31.7,
+            "Men": 38.84,
+            "Women": 20.43
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 13.96,
+            "Men": 14.12,
+            "Women": 13.61
+        }
+    },
+    "KOR": {
+        "Dwellings without basic facilities": {
+            "Total": 4.2,
+            "Men": 4.2,
+            "Women": 4.2
+        },
+        "Housing expenditure": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Rooms per person": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Household net adjusted disposable income": {
+            "Total": 17337.0,
+            "Men": 17337.0,
+            "Women": 17337.0,
+            "High": 32860.0,
+            "Low": 5737.0
+        },
+        "Household net financial wealth": {
+            "Total": 26036.0,
+            "Men": 26036.0,
+            "Women": 26036.0
+        },
+        "Employment rate": {
+            "Total": 64.0,
+            "Men": 75.0,
+            "Women": 53.0,
+            "High": 77.0,
+            "Low": 46.0
+        },
+        "Job security": {
+            "Total": 24.3,
+            "Men": 21.8,
+            "Women": 27.7
+        },
+        "Long-term unemployment rate": {
+            "Total": 0.01,
+            "Men": 0.02,
+            "Women": 0.007680492,
+            "High": 0.01,
+            "Low": 0.01
+        },
+        "Personal earnings": {
+            "Total": 35406.0,
+            "Men": 40224.0,
+            "Women": 25755.0,
+            "High": 50409.0,
+            "Low": 17458.0
+        },
+        "Quality of support network": {
+            "Total": 77.0,
+            "Men": 74.0,
+            "Women": 79.0,
+            "High": 82.0,
+            "Low": 42.0
+        },
+        "Educational attainment": {
+            "Total": 80.0,
+            "Men": 85.0,
+            "Women": 76.0
+        },
+        "Student skills": {
+            "Total": 541.0,
+            "Men": 536.0,
+            "Women": 547.0,
+            "High": 581.0,
+            "Low": 499.0
+        },
+        "Years in education": {
+            "Total": 17.7,
+            "Men": 18.5,
+            "Women": 16.8
+        },
+        "Air pollution": {
+            "Total": 33.0,
+            "Men": 33.0,
+            "Women": 33.0
+        },
+        "Water quality": {
+            "Total": 78.0,
+            "Men": 80.0,
+            "Women": 76.0,
+            "High": 75.0,
+            "Low": 80.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.4,
+            "Men": 10.4,
+            "Women": 10.4
+        },
+        "Voter turnout": {
+            "Total": 76.0,
+            "Men": 78.0,
+            "Women": 74.0,
+            "High": 100.0,
+            "Low": 71.0
+        },
+        "Life expectancy": {
+            "Total": 81.1,
+            "Men": 77.7,
+            "Women": 84.5
+        },
+        "Self-reported health": {
+            "Total": 37.0,
+            "Men": 40.0,
+            "Women": 34.0,
+            "High": 44.0,
+            "Low": 31.0
+        },
+        "Life satisfaction": {
+            "Total": 6.0,
+            "Men": 5.8,
+            "Women": 6.2,
+            "High": 6.5,
+            "Low": 4.6
+        },
+        "Assault rate": {
+            "Total": 2.1,
+            "Men": 1.9,
+            "Women": 2.2
+        },
+        "Homicide rate": {
+            "Total": 2.6,
+            "Men": 2.5,
+            "Women": 2.6
+        },
+        "Employees working very long hours": {
+            "Total": 27.66,
+            "Men": 35.02,
+            "Women": 17.06
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.63,
+            "Men": 14.97,
+            "Women": 14.07
+        }
+    },
+    "LUX": {
+        "Dwellings without basic facilities": {
+            "Total": 0.1,
+            "Men": 0.1,
+            "Women": 0.1
+        },
+        "Housing expenditure": {
+            "Total": 23.0,
+            "Men": 23.0,
+            "Women": 23.0
+        },
+        "Rooms per person": {
+            "Total": 1.9,
+            "Men": 1.9,
+            "Women": 1.9
+        },
+        "Household net adjusted disposable income": {
+            "Total": 35517.0,
+            "Men": 35517.0,
+            "Women": 35517.0,
+            "High": 65014.0,
+            "Low": 16082.0
+        },
+        "Household net financial wealth": {
+            "Total": 66917.0,
+            "Men": 66917.0,
+            "Women": 66917.0
+        },
+        "Employment rate": {
+            "Total": 65.0,
+            "Men": 72.0,
+            "Women": 57.0,
+            "High": 83.0,
+            "Low": 43.0
+        },
+        "Job security": {
+            "Total": 5.4,
+            "Men": 5.7,
+            "Women": 5.1
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.41,
+            "Men": 1.27,
+            "Women": 1.592041282,
+            "High": 1.23,
+            "Low": 1.99
+        },
+        "Personal earnings": {
+            "Total": 52847.0,
+            "Men": 57097.0,
+            "Women": 45906.0,
+            "High": 68946.0,
+            "Low": 33342.0
+        },
+        "Quality of support network": {
+            "Total": 91.0,
+            "Men": 90.0,
+            "Women": 91.0,
+            "High": 92.0,
+            "Low": 87.0
+        },
+        "Educational attainment": {
+            "Total": 78.0,
+            "Men": 81.0,
+            "Women": 75.0
+        },
+        "Student skills": {
+            "Total": 482.0,
+            "Men": 480.0,
+            "Women": 484.0,
+            "High": 539.0,
+            "Low": 414.0
+        },
+        "Years in education": {
+            "Total": 14.9,
+            "Men": 14.8,
+            "Women": 15.0
+        },
+        "Air pollution": {
+            "Total": 13.0,
+            "Men": 13.0,
+            "Women": 13.0
+        },
+        "Water quality": {
+            "Total": 87.0,
+            "Men": 87.0,
+            "Women": 88.0,
+            "High": 88.0,
+            "Low": 86.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.0,
+            "Men": 6.0,
+            "Women": 6.0
+        },
+        "Voter turnout": {
+            "Total": 91.0,
+            "Men": 92.0,
+            "Women": 90.0,
+            "High": 99.0,
+            "Low": 94.0
+        },
+        "Life expectancy": {
+            "Total": 81.1,
+            "Men": 78.5,
+            "Women": 83.6
+        },
+        "Self-reported health": {
+            "Total": 72.0,
+            "Men": 75.0,
+            "Women": 70.0,
+            "High": 83.0,
+            "Low": 63.0
+        },
+        "Life satisfaction": {
+            "Total": 7.0,
+            "Men": 7.0,
+            "Women": 7.0,
+            "High": 7.7,
+            "Low": 6.4
+        },
+        "Assault rate": {
+            "Total": 4.3,
+            "Men": 4.7,
+            "Women": 3.9
+        },
+        "Homicide rate": {
+            "Total": 2.5,
+            "Men": 3.4,
+            "Women": 1.4
+        },
+        "Employees working very long hours": {
+            "Total": 2.62,
+            "Men": 3.75,
+            "Women": 1.18
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.05,
+            "Men": 15.18,
+            "Women": 14.83
+        }
+    },
+    "MEX": {
+        "Dwellings without basic facilities": {
+            "Total": 4.2,
+            "Men": 4.2,
+            "Women": 4.2
+        },
+        "Housing expenditure": {
+            "Total": 18.0,
+            "Men": 18.0,
+            "Women": 18.0
+        },
+        "Rooms per person": {
+            "Total": 1.0,
+            "Men": 1.0,
+            "Women": 1.0
+        },
+        "Household net adjusted disposable income": {
+            "Total": 12732.0,
+            "Men": 12732.0,
+            "Women": 12732.0,
+            "High": 32756.0,
+            "Low": 2570.0
+        },
+        "Household net financial wealth": {
+            "Total": 9946.0,
+            "Men": 9946.0,
+            "Women": 9946.0
+        },
+        "Employment rate": {
+            "Total": 60.0,
+            "Men": 78.0,
+            "Women": 43.0,
+            "High": 70.0,
+            "Low": 58.0
+        },
+        "Job security": {
+            "Total": 21.4,
+            "Men": 21.6,
+            "Women": 16.8
+        },
+        "Long-term unemployment rate": {
+            "Total": 0.11,
+            "Men": 0.12,
+            "Women": 0.084921006,
+            "High": 0.12,
+            "Low": 0.1
+        },
+        "Personal earnings": {
+            "Total": 9885.0,
+            "Men": 10761.0,
+            "Women": 9199.0,
+            "High": 12260.0,
+            "Low": 4970.0
+        },
+        "Quality of support network": {
+            "Total": 76.0,
+            "Men": 75.0,
+            "Women": 76.0,
+            "High": 87.0,
+            "Low": 71.0
+        },
+        "Educational attainment": {
+            "Total": 36.0,
+            "Men": 38.0,
+            "Women": 35.0
+        },
+        "Student skills": {
+            "Total": 420.0,
+            "Men": 419.0,
+            "Women": 421.0,
+            "High": 468.0,
+            "Low": 379.0
+        },
+        "Years in education": {
+            "Total": 14.9,
+            "Men": 14.7,
+            "Women": 15.0
+        },
+        "Air pollution": {
+            "Total": 33.0,
+            "Men": 33.0,
+            "Women": 33.0
+        },
+        "Water quality": {
+            "Total": 78.0,
+            "Men": 79.0,
+            "Women": 76.0,
+            "High": 76.0,
+            "Low": 80.0
+        },
+        "Consultation on rule-making": {
+            "Total": 9.0,
+            "Men": 9.0,
+            "Women": 9.0
+        },
+        "Voter turnout": {
+            "Total": 63.0,
+            "Men": 65.0,
+            "Women": 61.0,
+            "High": 63.0,
+            "Low": 61.0
+        },
+        "Life expectancy": {
+            "Total": 74.2,
+            "Men": 71.2,
+            "Women": 77.2
+        },
+        "Self-reported health": {
+            "Total": 66.0,
+            "Men": 67.0,
+            "Women": 64.0,
+            "High": 78.0,
+            "Low": 57.0
+        },
+        "Life satisfaction": {
+            "Total": 7.3,
+            "Men": 7.3,
+            "Women": 7.3,
+            "High": 8.0,
+            "Low": 6.6
+        },
+        "Assault rate": {
+            "Total": 13.1,
+            "Men": 15.4,
+            "Women": 9.9
+        },
+        "Homicide rate": {
+            "Total": 23.7,
+            "Men": 44.5,
+            "Women": 4.8
+        },
+        "Employees working very long hours": {
+            "Total": 28.63,
+            "Men": 35.12,
+            "Women": 17.58
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 12.66,
+            "Men": 12.92,
+            "Women": 12.27
+        }
+    },
+    "NLD": {
+        "Dwellings without basic facilities": {
+            "Total": 0.0,
+            "Men": 0.0,
+            "Women": 0.0
+        },
+        "Housing expenditure": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Rooms per person": {
+            "Total": 2.0,
+            "Men": 2.0,
+            "Women": 2.0
+        },
+        "Household net adjusted disposable income": {
+            "Total": 25493.0,
+            "Men": 25493.0,
+            "Women": 25493.0,
+            "High": 48114.0,
+            "Low": 11185.0
+        },
+        "Household net financial wealth": {
+            "Total": 66869.0,
+            "Men": 66869.0,
+            "Women": 66869.0
+        },
+        "Employment rate": {
+            "Total": 75.0,
+            "Men": 80.0,
+            "Women": 70.0,
+            "High": 87.0,
+            "Low": 59.0
+        },
+        "Job security": {
+            "Total": 8.8,
+            "Men": 8.9,
+            "Women": 8.8
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.49,
+            "Men": 1.58,
+            "Women": 1.380117775,
+            "High": 0.81,
+            "Low": 2.33
+        },
+        "Personal earnings": {
+            "Total": 44321.0,
+            "Men": 46313.0,
+            "Women": 36857.0,
+            "High": 55029.0,
+            "Low": 28345.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 93.0,
+            "Women": 94.0,
+            "High": 95.0,
+            "Low": 86.0
+        },
+        "Educational attainment": {
+            "Total": 73.0,
+            "Men": 75.0,
+            "Women": 71.0
+        },
+        "Student skills": {
+            "Total": 519.0,
+            "Men": 518.0,
+            "Women": 519.0,
+            "High": 572.0,
+            "Low": 475.0
+        },
+        "Years in education": {
+            "Total": 17.8,
+            "Men": 17.8,
+            "Women": 17.8
+        },
+        "Air pollution": {
+            "Total": 30.0,
+            "Men": 30.0,
+            "Women": 30.0
+        },
+        "Water quality": {
+            "Total": 90.0,
+            "Men": 89.0,
+            "Women": 92.0,
+            "High": 92.0,
+            "Low": 98.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.1,
+            "Men": 6.1,
+            "Women": 6.1
+        },
+        "Voter turnout": {
+            "Total": 75.0,
+            "Men": 74.0,
+            "Women": 77.0,
+            "High": 85.0,
+            "Low": 65.0
+        },
+        "Life expectancy": {
+            "Total": 81.3,
+            "Men": 79.4,
+            "Women": 83.1
+        },
+        "Self-reported health": {
+            "Total": 76.0,
+            "Men": 79.0,
+            "Women": 73.0,
+            "High": 87.0,
+            "Low": 67.0
+        },
+        "Life satisfaction": {
+            "Total": 7.5,
+            "Men": 7.4,
+            "Women": 7.5,
+            "High": 7.7,
+            "Low": 6.9
+        },
+        "Assault rate": {
+            "Total": 4.9,
+            "Men": 6.5,
+            "Women": 3.5
+        },
+        "Homicide rate": {
+            "Total": 1.1,
+            "Men": 1.6,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 0.66,
+            "Men": 1.12,
+            "Women": 0.15
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.66,
+            "Men": 15.76,
+            "Women": 15.49
+        }
+    },
+    "NZL": {
+        "Dwellings without basic facilities": {
+            "Total": 0.2,
+            "Men": 0.2,
+            "Women": 0.2
+        },
+        "Housing expenditure": {
+            "Total": 26.0,
+            "Men": 26.0,
+            "Women": 26.0
+        },
+        "Rooms per person": {
+            "Total": 2.3,
+            "Men": 2.3,
+            "Women": 2.3
+        },
+        "Household net adjusted disposable income": {
+            "Total": 21892.0,
+            "Men": 21892.0,
+            "Women": 21892.0,
+            "High": 43498.0,
+            "Low": 8528.0
+        },
+        "Household net financial wealth": {
+            "Total": 33421.0,
+            "Men": 33421.0,
+            "Women": 33421.0
+        },
+        "Employment rate": {
+            "Total": 73.0,
+            "Men": 78.0,
+            "Women": 67.0,
+            "High": 83.0,
+            "Low": 58.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 0.59,
+            "Men": 0.64,
+            "Women": 0.522259297,
+            "High": 0.42,
+            "Low": 0.94
+        },
+        "Personal earnings": {
+            "Total": 30420.0,
+            "Men": 31943.0,
+            "Women": 28290.0,
+            "High": 38798.0,
+            "Low": 19006.0
+        },
+        "Quality of support network": {
+            "Total": 93.0,
+            "Men": 91.0,
+            "Women": 94.0,
+            "High": 91.0,
+            "Low": 91.0
+        },
+        "Educational attainment": {
+            "Total": 73.0,
+            "Men": 74.0,
+            "Women": 72.0
+        },
+        "Student skills": {
+            "Total": 524.0,
+            "Men": 517.0,
+            "Women": 532.0,
+            "High": 586.0,
+            "Low": 467.0
+        },
+        "Years in education": {
+            "Total": 18.2,
+            "Men": 17.7,
+            "Women": 18.7
+        },
+        "Air pollution": {
+            "Total": 12.0,
+            "Men": 12.0,
+            "Women": 12.0
+        },
+        "Water quality": {
+            "Total": 88.0,
+            "Men": 90.0,
+            "Women": 87.0,
+            "High": 92.0,
+            "Low": 88.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.3,
+            "Men": 10.3,
+            "Women": 10.3
+        },
+        "Voter turnout": {
+            "Total": 74.0,
+            "Men": 75.0,
+            "Women": 73.0,
+            "High": 81.0,
+            "Low": 75.0
+        },
+        "Life expectancy": {
+            "Total": 81.2,
+            "Men": 79.4,
+            "Women": 83.0
+        },
+        "Self-reported health": {
+            "Total": 89.0,
+            "Men": 90.0,
+            "Women": 89.0,
+            "High": 95.0,
+            "Low": 92.0
+        },
+        "Life satisfaction": {
+            "Total": 7.2,
+            "Men": 7.2,
+            "Women": 7.3,
+            "High": 7.3,
+            "Low": 7.4
+        },
+        "Assault rate": {
+            "Total": 2.2,
+            "Men": 3.2,
+            "Women": 1.4
+        },
+        "Homicide rate": {
+            "Total": 0.9,
+            "Men": 1.1,
+            "Women": 0.7
+        },
+        "Employees working very long hours": {
+            "Total": 13.02,
+            "Men": 19.53,
+            "Women": 6.25
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.87,
+            "Men": 14.83,
+            "Women": 14.93
+        }
+    },
+    "NOR": {
+        "Dwellings without basic facilities": {
+            "Total": 0.3,
+            "Men": 0.3,
+            "Women": 0.3
+        },
+        "Housing expenditure": {
+            "Total": 18.0,
+            "Men": 18.0,
+            "Women": 18.0
+        },
+        "Rooms per person": {
+            "Total": 2.0,
+            "Men": 2.0,
+            "Women": 2.0
+        },
+        "Household net adjusted disposable income": {
+            "Total": 31459.0,
+            "Men": 31459.0,
+            "Women": 31459.0,
+            "High": 53912.0,
+            "Low": 14621.0
+        },
+        "Household net financial wealth": {
+            "Total": 6905.0,
+            "Men": 6905.0,
+            "Women": 6905.0
+        },
+        "Employment rate": {
+            "Total": 75.0,
+            "Men": 77.0,
+            "Women": 73.0,
+            "High": 88.0,
+            "Low": 56.0
+        },
+        "Job security": {
+            "Total": 7.9,
+            "Men": 8.0,
+            "Women": 7.8
+        },
+        "Long-term unemployment rate": {
+            "Total": 0.38,
+            "Men": 0.47,
+            "Women": 0.275440784,
+            "High": 0.19,
+            "Low": 0.86
+        },
+        "Personal earnings": {
+            "Total": 43990.0,
+            "Men": 47108.0,
+            "Women": 40180.0,
+            "High": 48724.0,
+            "Low": 30366.0
+        },
+        "Quality of support network": {
+            "Total": 93.0,
+            "Men": 93.0,
+            "Women": 93.0,
+            "High": 94.0,
+            "Low": 91.0
+        },
+        "Educational attainment": {
+            "Total": 81.0,
+            "Men": 81.0,
+            "Women": 80.0
+        },
+        "Student skills": {
+            "Total": 500.0,
+            "Men": 493.0,
+            "Women": 508.0,
+            "High": 536.0,
+            "Low": 459.0
+        },
+        "Years in education": {
+            "Total": 17.9,
+            "Men": 17.5,
+            "Women": 18.4
+        },
+        "Air pollution": {
+            "Total": 15.0,
+            "Men": 15.0,
+            "Women": 15.0
+        },
+        "Water quality": {
+            "Total": 96.0,
+            "Men": 96.0,
+            "Women": 96.0,
+            "High": 97.0,
+            "Low": 95.0
+        },
+        "Consultation on rule-making": {
+            "Total": 8.1,
+            "Men": 8.1,
+            "Women": 8.1
+        },
+        "Voter turnout": {
+            "Total": 76.0,
+            "Men": 76.0,
+            "Women": 76.0,
+            "High": 83.0,
+            "Low": 70.0
+        },
+        "Life expectancy": {
+            "Total": 81.4,
+            "Men": 79.1,
+            "Women": 83.6
+        },
+        "Self-reported health": {
+            "Total": 73.0,
+            "Men": 75.0,
+            "Women": 71.0,
+            "High": 85.0,
+            "Low": 65.0
+        },
+        "Life satisfaction": {
+            "Total": 7.7,
+            "Men": 7.6,
+            "Women": 7.7,
+            "High": 7.8,
+            "Low": 7.5
+        },
+        "Assault rate": {
+            "Total": 3.3,
+            "Men": 4.3,
+            "Women": 2.3
+        },
+        "Homicide rate": {
+            "Total": 0.6,
+            "Men": 0.7,
+            "Women": 0.5
+        },
+        "Employees working very long hours": {
+            "Total": 2.83,
+            "Men": 4.46,
+            "Women": 1.13
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.56,
+            "Men": 15.5,
+            "Women": 15.67
+        }
+    },
+    "POL": {
+        "Dwellings without basic facilities": {
+            "Total": 4.0,
+            "Men": 4.0,
+            "Women": 4.0
+        },
+        "Housing expenditure": {
+            "Total": 24.0,
+            "Men": 24.0,
+            "Women": 24.0
+        },
+        "Rooms per person": {
+            "Total": 1.0,
+            "Men": 1.0,
+            "Women": 1.0
+        },
+        "Household net adjusted disposable income": {
+            "Total": 15371.0,
+            "Men": 15371.0,
+            "Women": 15371.0,
+            "High": 29527.0,
+            "Low": 6123.0
+        },
+        "Household net financial wealth": {
+            "Total": 9222.0,
+            "Men": 9222.0,
+            "Women": 9222.0
+        },
+        "Employment rate": {
+            "Total": 60.0,
+            "Men": 66.0,
+            "Women": 53.0,
+            "High": 83.0,
+            "Low": 24.0
+        },
+        "Job security": {
+            "Total": 8.1,
+            "Men": 9.0,
+            "Women": 8.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.05,
+            "Men": 2.76,
+            "Women": 3.390406743,
+            "High": 1.6,
+            "Low": 5.82
+        },
+        "Personal earnings": {
+            "Total": 19806.0,
+            "Men": 20110.0,
+            "Women": 19457.0,
+            "High": 26308.0,
+            "Low": 10906.0
+        },
+        "Quality of support network": {
+            "Total": 91.0,
+            "Men": 90.0,
+            "Women": 92.0,
+            "High": 96.0,
+            "Low": 87.0
+        },
+        "Educational attainment": {
+            "Total": 89.0,
+            "Men": 89.0,
+            "Women": 88.0
+        },
+        "Student skills": {
+            "Total": 501.0,
+            "Men": 492.0,
+            "Women": 510.0,
+            "High": 556.0,
+            "Low": 459.0
+        },
+        "Years in education": {
+            "Total": 18.2,
+            "Men": 17.5,
+            "Women": 19.0
+        },
+        "Air pollution": {
+            "Total": 34.0,
+            "Men": 34.0,
+            "Women": 34.0
+        },
+        "Water quality": {
+            "Total": 79.0,
+            "Men": 82.0,
+            "Women": 76.0,
+            "High": 74.0,
+            "Low": 81.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.8,
+            "Men": 10.8,
+            "Women": 10.8
+        },
+        "Voter turnout": {
+            "Total": 55.0,
+            "Men": 58.0,
+            "Women": 53.0,
+            "High": 68.0,
+            "Low": 43.0
+        },
+        "Life expectancy": {
+            "Total": 76.9,
+            "Men": 72.6,
+            "Women": 81.1
+        },
+        "Self-reported health": {
+            "Total": 57.0,
+            "Men": 60.0,
+            "Women": 54.0,
+            "High": 69.0,
+            "Low": 50.0
+        },
+        "Life satisfaction": {
+            "Total": 5.9,
+            "Men": 5.7,
+            "Women": 6.0,
+            "High": 6.5,
+            "Low": 5.8
+        },
+        "Assault rate": {
+            "Total": 1.8,
+            "Men": 0.9,
+            "Women": 2.6
+        },
+        "Homicide rate": {
+            "Total": 1.1,
+            "Men": 1.7,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 7.24,
+            "Men": 11.32,
+            "Women": 2.57
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.2,
+            "Men": 14.37,
+            "Women": 13.83
+        }
+    },
+    "PRT": {
+        "Dwellings without basic facilities": {
+            "Total": 1.2,
+            "Men": 1.2,
+            "Women": 1.2
+        },
+        "Housing expenditure": {
+            "Total": 17.0,
+            "Men": 17.0,
+            "Women": 17.0
+        },
+        "Rooms per person": {
+            "Total": 1.6,
+            "Men": 1.6,
+            "Women": 1.6
+        },
+        "Household net adjusted disposable income": {
+            "Total": 19366.0,
+            "Men": 19366.0,
+            "Women": 19366.0,
+            "High": 40277.0,
+            "Low": 7079.0
+        },
+        "Household net financial wealth": {
+            "Total": 28408.0,
+            "Men": 28408.0,
+            "Women": 28408.0
+        },
+        "Employment rate": {
+            "Total": 64.0,
+            "Men": 68.0,
+            "Women": 60.0,
+            "High": 81.0,
+            "Low": 61.0
+        },
+        "Job security": {
+            "Total": 8.7,
+            "Men": 9.0,
+            "Women": 8.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 6.14,
+            "Men": 5.96,
+            "Women": 6.338144778,
+            "High": 4.12,
+            "Low": 7.11
+        },
+        "Personal earnings": {
+            "Total": 24384.0,
+            "Men": 25359.0,
+            "Women": 23308.0,
+            "High": 30578.0,
+            "Low": 13056.0
+        },
+        "Quality of support network": {
+            "Total": 85.0,
+            "Men": 86.0,
+            "Women": 84.0,
+            "High": 95.0,
+            "Low": 75.0
+        },
+        "Educational attainment": {
+            "Total": 32.0,
+            "Men": 29.0,
+            "Women": 35.0
+        },
+        "Student skills": {
+            "Total": 490.0,
+            "Men": 485.0,
+            "Women": 495.0,
+            "High": 550.0,
+            "Low": 445.0
+        },
+        "Years in education": {
+            "Total": 18.0,
+            "Men": 17.7,
+            "Women": 18.2
+        },
+        "Air pollution": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Water quality": {
+            "Total": 86.0,
+            "Men": 84.0,
+            "Women": 88.0,
+            "High": 89.0,
+            "Low": 89.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.5,
+            "Men": 6.5,
+            "Women": 6.5
+        },
+        "Voter turnout": {
+            "Total": 58.0,
+            "Men": 58.0,
+            "Women": 58.0,
+            "High": 63.0,
+            "Low": 56.0
+        },
+        "Life expectancy": {
+            "Total": 80.8,
+            "Men": 77.6,
+            "Women": 84.0
+        },
+        "Self-reported health": {
+            "Total": 49.0,
+            "Men": 55.0,
+            "Women": 44.0,
+            "High": 65.0,
+            "Low": 39.0
+        },
+        "Life satisfaction": {
+            "Total": 5.0,
+            "Men": 4.9,
+            "Women": 5.1,
+            "High": 6.5,
+            "Low": 4.1
+        },
+        "Assault rate": {
+            "Total": 5.8,
+            "Men": 5.5,
+            "Women": 6.1
+        },
+        "Homicide rate": {
+            "Total": 1.2,
+            "Men": 1.7,
+            "Women": 0.7
+        },
+        "Employees working very long hours": {
+            "Total": 8.5,
+            "Men": 11.64,
+            "Women": 5.33
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.71,
+            "Men": 14.86,
+            "Women": 14.47
+        }
+    },
+    "SVK": {
+        "Dwellings without basic facilities": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Housing expenditure": {
+            "Total": 25.0,
+            "Men": 25.0,
+            "Women": 25.0
+        },
+        "Rooms per person": {
+            "Total": 1.2,
+            "Men": 1.2,
+            "Women": 1.2
+        },
+        "Household net adjusted disposable income": {
+            "Total": 16682.0,
+            "Men": 16682.0,
+            "Women": 16682.0,
+            "High": 29511.0,
+            "Low": 7680.0
+        },
+        "Household net financial wealth": {
+            "Total": 7798.0,
+            "Men": 7798.0,
+            "Women": 7798.0
+        },
+        "Employment rate": {
+            "Total": 59.0,
+            "Men": 66.0,
+            "Women": 53.0,
+            "High": 79.0,
+            "Low": 14.0
+        },
+        "Job security": {
+            "Total": 5.0,
+            "Men": 5.7,
+            "Women": 4.2
+        },
+        "Long-term unemployment rate": {
+            "Total": 8.65,
+            "Men": 8.79,
+            "Women": 8.462049723,
+            "High": 3.49,
+            "Low": 26.66
+        },
+        "Personal earnings": {
+            "Total": 19335.0,
+            "Men": 21894.0,
+            "Women": 16496.0,
+            "High": 24165.0,
+            "Low": 10496.0
+        },
+        "Quality of support network": {
+            "Total": 89.0,
+            "Men": 88.0,
+            "Women": 90.0,
+            "High": 96.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 91.0,
+            "Men": 93.0,
+            "Women": 89.0
+        },
+        "Student skills": {
+            "Total": 488.0,
+            "Men": 480.0,
+            "Women": 496.0,
+            "High": 543.0,
+            "Low": 436.0
+        },
+        "Years in education": {
+            "Total": 16.4,
+            "Men": 15.9,
+            "Women": 17.0
+        },
+        "Air pollution": {
+            "Total": 12.0,
+            "Men": 12.0,
+            "Women": 12.0
+        },
+        "Water quality": {
+            "Total": 81.0,
+            "Men": 81.0,
+            "Women": 81.0,
+            "High": 84.0,
+            "Low": 81.0
+        },
+        "Consultation on rule-making": {
+            "Total": 6.6,
+            "Men": 6.6,
+            "Women": 6.6
+        },
+        "Voter turnout": {
+            "Total": 59.0,
+            "Men": 59.0,
+            "Women": 59.0,
+            "High": 64.0,
+            "Low": 60.0
+        },
+        "Life expectancy": {
+            "Total": 76.1,
+            "Men": 72.3,
+            "Women": 79.8
+        },
+        "Self-reported health": {
+            "Total": 62.0,
+            "Men": 67.0,
+            "Women": 58.0,
+            "High": 74.0,
+            "Low": 58.0
+        },
+        "Life satisfaction": {
+            "Total": 5.9,
+            "Men": 6.0,
+            "Women": 5.9,
+            "High": 6.7,
+            "Low": 5.6
+        },
+        "Assault rate": {
+            "Total": 3.0,
+            "Men": 3.8,
+            "Women": 2.2
+        },
+        "Homicide rate": {
+            "Total": 1.5,
+            "Men": 2.2,
+            "Women": 0.9
+        },
+        "Employees working very long hours": {
+            "Total": 6.38,
+            "Men": 9.34,
+            "Women": 2.99
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.78,
+            "Men": 14.93,
+            "Women": 14.54
+        }
+    },
+    "ESP": {
+        "Dwellings without basic facilities": {
+            "Total": 0.0,
+            "Men": 0.0,
+            "Women": 0.0
+        },
+        "Housing expenditure": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 22847.0,
+            "Men": 22847.0,
+            "Women": 22847.0,
+            "High": 45150.0,
+            "Low": 7008.0
+        },
+        "Household net financial wealth": {
+            "Total": 21636.0,
+            "Men": 21636.0,
+            "Women": 21636.0
+        },
+        "Employment rate": {
+            "Total": 58.0,
+            "Men": 64.0,
+            "Women": 53.0,
+            "High": 77.0,
+            "Low": 38.0
+        },
+        "Job security": {
+            "Total": 10.9,
+            "Men": 10.9,
+            "Women": 11.0
+        },
+        "Long-term unemployment rate": {
+            "Total": 8.99,
+            "Men": 8.62,
+            "Women": 9.455088284,
+            "High": 4.63,
+            "Low": 15.54
+        },
+        "Personal earnings": {
+            "Total": 34769.0,
+            "Men": 35651.0,
+            "Women": 33478.0,
+            "High": 47165.0,
+            "Low": 21065.0
+        },
+        "Quality of support network": {
+            "Total": 93.0,
+            "Men": 93.0,
+            "Women": 94.0,
+            "High": 99.0,
+            "Low": 90.0
+        },
+        "Educational attainment": {
+            "Total": 53.0,
+            "Men": 52.0,
+            "Women": 54.0
+        },
+        "Student skills": {
+            "Total": 484.0,
+            "Men": 484.0,
+            "Women": 485.0,
+            "High": 533.0,
+            "Low": 441.0
+        },
+        "Years in education": {
+            "Total": 17.3,
+            "Men": 17.0,
+            "Women": 17.7
+        },
+        "Air pollution": {
+            "Total": 25.0,
+            "Men": 25.0,
+            "Women": 25.0
+        },
+        "Water quality": {
+            "Total": 79.0,
+            "Men": 82.0,
+            "Women": 77.0,
+            "High": 88.0,
+            "Low": 79.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.3,
+            "Men": 7.3,
+            "Women": 7.3
+        },
+        "Voter turnout": {
+            "Total": 69.0,
+            "Men": 69.0,
+            "Women": 68.0,
+            "High": 76.0,
+            "Low": 66.0
+        },
+        "Life expectancy": {
+            "Total": 82.4,
+            "Men": 79.4,
+            "Women": 85.4
+        },
+        "Self-reported health": {
+            "Total": 75.0,
+            "Men": 78.0,
+            "Women": 72.0,
+            "High": 86.0,
+            "Low": 70.0
+        },
+        "Life satisfaction": {
+            "Total": 6.3,
+            "Men": 6.2,
+            "Women": 6.4,
+            "High": 7.1,
+            "Low": 5.6
+        },
+        "Assault rate": {
+            "Total": 4.2,
+            "Men": 4.1,
+            "Women": 4.3
+        },
+        "Homicide rate": {
+            "Total": 0.8,
+            "Men": 1.1,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 6.34,
+            "Men": 8.85,
+            "Women": 3.53
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.85,
+            "Men": 16.21,
+            "Women": 15.28
+        }
+    },
+    "SWE": {
+        "Dwellings without basic facilities": {
+            "Total": 0.0,
+            "Men": 0.0,
+            "Women": 0.0
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.7,
+            "Men": 1.7,
+            "Women": 1.7
+        },
+        "Household net adjusted disposable income": {
+            "Total": 26242.0,
+            "Men": 26242.0,
+            "Women": 26242.0,
+            "High": 46688.0,
+            "Low": 11528.0
+        },
+        "Household net financial wealth": {
+            "Total": 44889.0,
+            "Men": 44889.0,
+            "Women": 44889.0
+        },
+        "Employment rate": {
+            "Total": 74.0,
+            "Men": 76.0,
+            "Women": 72.0,
+            "High": 89.0,
+            "Low": 49.0
+        },
+        "Job security": {
+            "Total": 13.9,
+            "Men": 13.8,
+            "Women": 13.9
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.29,
+            "Men": 1.46,
+            "Women": 1.105598198,
+            "High": 0.7,
+            "Low": 2.91
+        },
+        "Personal earnings": {
+            "Total": 37094.0,
+            "Men": 40340.0,
+            "Women": 33000.0,
+            "High": 47880.0,
+            "Low": 22308.0
+        },
+        "Quality of support network": {
+            "Total": 92.0,
+            "Men": 90.0,
+            "Women": 94.0,
+            "High": 92.0,
+            "Low": 76.0
+        },
+        "Educational attainment": {
+            "Total": 87.0,
+            "Men": 85.0,
+            "Women": 88.0
+        },
+        "Student skills": {
+            "Total": 496.0,
+            "Men": 487.0,
+            "Women": 504.0,
+            "High": 545.0,
+            "Low": 446.0
+        },
+        "Years in education": {
+            "Total": 19.2,
+            "Men": 18.3,
+            "Women": 20.2
+        },
+        "Air pollution": {
+            "Total": 10.0,
+            "Men": 10.0,
+            "Women": 10.0
+        },
+        "Water quality": {
+            "Total": 95.0,
+            "Men": 96.0,
+            "Women": 94.0,
+            "High": 95.0,
+            "Low": 99.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.9,
+            "Men": 10.9,
+            "Women": 10.9
+        },
+        "Voter turnout": {
+            "Total": 85.0,
+            "Men": 83.0,
+            "Women": 87.0,
+            "High": 89.0,
+            "Low": 83.0
+        },
+        "Life expectancy": {
+            "Total": 81.9,
+            "Men": 79.9,
+            "Women": 83.8
+        },
+        "Self-reported health": {
+            "Total": 80.0,
+            "Men": 82.0,
+            "Women": 78.0,
+            "High": 89.0,
+            "Low": 67.0
+        },
+        "Life satisfaction": {
+            "Total": 7.6,
+            "Men": 7.5,
+            "Women": 7.6,
+            "High": 7.6,
+            "Low": 7.8
+        },
+        "Assault rate": {
+            "Total": 5.1,
+            "Men": 4.7,
+            "Women": 5.5
+        },
+        "Homicide rate": {
+            "Total": 1.0,
+            "Men": 1.3,
+            "Women": 0.7
+        },
+        "Employees working very long hours": {
+            "Total": 1.23,
+            "Men": 1.85,
+            "Women": 0.6
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 15.11,
+            "Men": 15.01,
+            "Women": 15.3
+        }
+    },
+    "CHE": {
+        "Dwellings without basic facilities": {
+            "Total": 0.1,
+            "Men": 0.1,
+            "Women": 0.1
+        },
+        "Housing expenditure": {
+            "Total": 23.0,
+            "Men": 23.0,
+            "Women": 23.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 30060.0,
+            "Men": 30060.0,
+            "Women": 30060.0,
+            "High": 57485.0,
+            "Low": 12593.0
+        },
+        "Household net financial wealth": {
+            "Total": 99209.0,
+            "Men": 99209.0,
+            "Women": 99209.0
+        },
+        "Employment rate": {
+            "Total": 79.0,
+            "Men": 85.0,
+            "Women": 73.0,
+            "High": 89.0,
+            "Low": 44.0
+        },
+        "Job security": {
+            "Total": 8.4,
+            "Men": 7.7,
+            "Women": 9.3
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.57,
+            "Men": 1.37,
+            "Women": 1.809738682,
+            "High": 1.11,
+            "Low": 4.01
+        },
+        "Personal earnings": {
+            "Total": 50323.0,
+            "Men": 52953.0,
+            "Women": 39860.0,
+            "High": 74652.0,
+            "Low": 39951.0
+        },
+        "Quality of support network": {
+            "Total": 94.0,
+            "Men": 93.0,
+            "Women": 96.0,
+            "High": 95.0,
+            "Low": 95.0
+        },
+        "Educational attainment": {
+            "Total": 86.0,
+            "Men": 89.0,
+            "Women": 83.0
+        },
+        "Student skills": {
+            "Total": 517.0,
+            "Men": 515.0,
+            "Women": 519.0,
+            "High": 573.0,
+            "Low": 465.0
+        },
+        "Years in education": {
+            "Total": 17.2,
+            "Men": 17.3,
+            "Women": 17.0
+        },
+        "Air pollution": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Water quality": {
+            "Total": 95.0,
+            "Men": 97.0,
+            "Women": 92.0,
+            "High": 95.0,
+            "Low": 95.0
+        },
+        "Consultation on rule-making": {
+            "Total": 8.4,
+            "Men": 8.4,
+            "Women": 8.4
+        },
+        "Voter turnout": {
+            "Total": 49.0,
+            "Men": 58.0,
+            "Women": 42.0,
+            "High": 61.0,
+            "Low": 43.0
+        },
+        "Life expectancy": {
+            "Total": 82.8,
+            "Men": 80.5,
+            "Women": 85.0
+        },
+        "Self-reported health": {
+            "Total": 81.0,
+            "Men": 84.0,
+            "Women": 78.0,
+            "High": 80.0,
+            "Low": 70.0
+        },
+        "Life satisfaction": {
+            "Total": 7.8,
+            "Men": 7.7,
+            "Women": 7.8,
+            "High": 8.0,
+            "Low": 7.4
+        },
+        "Assault rate": {
+            "Total": 4.2,
+            "Men": 5.7,
+            "Women": 2.8
+        },
+        "Homicide rate": {
+            "Total": 0.7,
+            "Men": 0.7,
+            "Women": 0.6
+        },
+        "Employees working very long hours": {
+            "Total": 5.87,
+            "Men": 8.68,
+            "Women": 2.86
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.78,
+            "Men": 14.93,
+            "Women": 14.54
+        }
+    },
+    "TUR": {
+        "Dwellings without basic facilities": {
+            "Total": 12.7,
+            "Men": 12.7,
+            "Women": 12.7
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 0.9,
+            "Men": 0.9,
+            "Women": 0.9
+        },
+        "Household net adjusted disposable income": {
+            "Total": 13044.0,
+            "Men": 13044.0,
+            "Women": 13044.0,
+            "High": 30808.0,
+            "Low": 3679.0
+        },
+        "Household net financial wealth": {
+            "Total": 10524.0,
+            "Men": 10524.0,
+            "Women": 10524.0
+        },
+        "Employment rate": {
+            "Total": 48.0,
+            "Men": 69.0,
+            "Women": 28.0,
+            "High": 75.0,
+            "Low": 46.0
+        },
+        "Job security": {
+            "Total": 25.8,
+            "Men": 25.5,
+            "Women": 27.0
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.59,
+            "Men": 2.07,
+            "Women": 3.855452348,
+            "High": 2.4,
+            "Low": 2.59
+        },
+        "Personal earnings": {
+            "Total": 19032.0,
+            "Men": 20657.0,
+            "Women": 17241.0,
+            "High": 24076.0,
+            "Low": 10457.0
+        },
+        "Quality of support network": {
+            "Total": 73.0,
+            "Men": 72.0,
+            "Women": 74.0,
+            "High": 87.0,
+            "Low": 65.0
+        },
+        "Educational attainment": {
+            "Total": 31.0,
+            "Men": 36.0,
+            "Women": 26.0
+        },
+        "Student skills": {
+            "Total": 455.0,
+            "Men": 447.0,
+            "Women": 462.0,
+            "High": 514.0,
+            "Low": 408.0
+        },
+        "Years in education": {
+            "Total": 15.2,
+            "Men": 15.7,
+            "Women": 14.7
+        },
+        "Air pollution": {
+            "Total": 37.0,
+            "Men": 37.0,
+            "Women": 37.0
+        },
+        "Water quality": {
+            "Total": 61.0,
+            "Men": 61.0,
+            "Women": 62.0,
+            "High": 60.0,
+            "Low": 63.0
+        },
+        "Consultation on rule-making": {
+            "Total": 5.5,
+            "Men": 5.5,
+            "Women": 5.5
+        },
+        "Voter turnout": {
+            "Total": 88.0,
+            "Men": 87.0,
+            "Women": 88.0,
+            "High": 89.0,
+            "Low": 84.0
+        },
+        "Life expectancy": {
+            "Total": 74.6,
+            "Men": 72.0,
+            "Women": 77.1
+        },
+        "Self-reported health": {
+            "Total": 67.0,
+            "Men": 72.0,
+            "Women": 62.0,
+            "High": 75.0,
+            "Low": 61.0
+        },
+        "Life satisfaction": {
+            "Total": 5.3,
+            "Men": 5.2,
+            "Women": 5.4,
+            "High": 6.1,
+            "Low": 4.9
+        },
+        "Assault rate": {
+            "Total": 5.1,
+            "Men": 6.4,
+            "Women": 3.7
+        },
+        "Homicide rate": {
+            "Total": 3.3,
+            "Men": 5.1,
+            "Women": 1.2
+        },
+        "Employees working very long hours": {
+            "Total": 46.13,
+            "Men": 49.81,
+            "Women": 34.6
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 11.73,
+            "Men": 12.04,
+            "Women": 11.27
+        }
+    },
+    "GBR": {
+        "Dwellings without basic facilities": {
+            "Total": 0.1,
+            "Men": 0.1,
+            "Women": 0.1
+        },
+        "Housing expenditure": {
+            "Total": 22.0,
+            "Men": 22.0,
+            "Women": 22.0
+        },
+        "Rooms per person": {
+            "Total": 1.8,
+            "Men": 1.8,
+            "Women": 1.8
+        },
+        "Household net adjusted disposable income": {
+            "Total": 26904.0,
+            "Men": 26904.0,
+            "Women": 26904.0,
+            "High": 56026.0,
+            "Low": 9927.0
+        },
+        "Household net financial wealth": {
+            "Total": 62965.0,
+            "Men": 62965.0,
+            "Women": 62965.0
+        },
+        "Employment rate": {
+            "Total": 70.0,
+            "Men": 76.0,
+            "Women": 65.0,
+            "High": 84.0,
+            "Low": 49.0
+        },
+        "Job security": {
+            "Total": 6.8,
+            "Men": 7.2,
+            "Women": 6.5
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.62,
+            "Men": 3.18,
+            "Women": 1.949865495,
+            "High": 1.59,
+            "Low": 4.27
+        },
+        "Personal earnings": {
+            "Total": 44743.0,
+            "Men": 48864.0,
+            "Women": 38268.0,
+            "High": 57373.0,
+            "Low": 24428.0
+        },
+        "Quality of support network": {
+            "Total": 95.0,
+            "Men": 93.0,
+            "Women": 96.0,
+            "High": 96.0,
+            "Low": 92.0
+        },
+        "Educational attainment": {
+            "Total": 75.0,
+            "Men": 78.0,
+            "Women": 72.0
+        },
+        "Student skills": {
+            "Total": 500.0,
+            "Men": 501.0,
+            "Women": 499.0,
+            "High": 556.0,
+            "Low": 453.0
+        },
+        "Years in education": {
+            "Total": 16.6,
+            "Men": 16.3,
+            "Women": 17.0
+        },
+        "Air pollution": {
+            "Total": 13.0,
+            "Men": 13.0,
+            "Women": 13.0
+        },
+        "Water quality": {
+            "Total": 97.0,
+            "Men": 97.0,
+            "Women": 97.0,
+            "High": 96.0,
+            "Low": 97.0
+        },
+        "Consultation on rule-making": {
+            "Total": 11.5,
+            "Men": 11.5,
+            "Women": 11.5
+        },
+        "Voter turnout": {
+            "Total": 66.0,
+            "Men": 62.0,
+            "Women": 69.0,
+            "High": 73.0,
+            "Low": 50.0
+        },
+        "Life expectancy": {
+            "Total": 81.1,
+            "Men": 79.1,
+            "Women": 83.1
+        },
+        "Self-reported health": {
+            "Total": 77.0,
+            "Men": 78.0,
+            "Women": 76.0,
+            "High": 88.0,
+            "Low": 68.0
+        },
+        "Life satisfaction": {
+            "Total": 6.8,
+            "Men": 6.8,
+            "Women": 6.9,
+            "High": 7.2,
+            "Low": 6.4
+        },
+        "Assault rate": {
+            "Total": 1.9,
+            "Men": 3.2,
+            "Women": 0.8
+        },
+        "Homicide rate": {
+            "Total": 1.2,
+            "Men": 1.6,
+            "Women": 0.8
+        },
+        "Employees working very long hours": {
+            "Total": 12.06,
+            "Men": 18.12,
+            "Women": 5.83
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.83,
+            "Men": 14.83,
+            "Women": 14.83
+        }
+    },
+    "USA": {
+        "Dwellings without basic facilities": {
+            "Total": 0.0,
+            "Men": 0.0,
+            "Women": 0.0
+        },
+        "Housing expenditure": {
+            "Total": 19.0,
+            "Men": 19.0,
+            "Women": 19.0
+        },
+        "Rooms per person": {
+            "Total": 2.3,
+            "Men": 2.3,
+            "Women": 2.3
+        },
+        "Household net adjusted disposable income": {
+            "Total": 38001.0,
+            "Men": 38001.0,
+            "Women": 38001.0,
+            "High": 82666.0,
+            "Low": 10434.0
+        },
+        "Household net financial wealth": {
+            "Total": 115918.0,
+            "Men": 115918.0,
+            "Women": 115918.0
+        },
+        "Employment rate": {
+            "Total": 67.0,
+            "Men": 71.0,
+            "Women": 62.0,
+            "High": 80.0,
+            "Low": 35.0
+        },
+        "Job security": {
+            "Total": 11.4,
+            "Men": 11.3,
+            "Women": 11.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.8,
+            "Men": 3.02,
+            "Women": 2.558720533,
+            "High": 1.59,
+            "Low": 6.03
+        },
+        "Personal earnings": {
+            "Total": 54450.0,
+            "Men": 60068.0,
+            "Women": 47361.0,
+            "High": 70927.0,
+            "Low": 24080.0
+        },
+        "Quality of support network": {
+            "Total": 90.0,
+            "Men": 88.0,
+            "Women": 92.0,
+            "High": 96.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 89.0,
+            "Men": 88.0,
+            "Women": 90.0
+        },
+        "Student skills": {
+            "Total": 496.0,
+            "Men": 498.0,
+            "Women": 495.0,
+            "High": 559.0,
+            "Low": 447.0
+        },
+        "Years in education": {
+            "Total": 17.1,
+            "Men": 16.5,
+            "Women": 17.8
+        },
+        "Air pollution": {
+            "Total": 18.0,
+            "Men": 18.0,
+            "Women": 18.0
+        },
+        "Water quality": {
+            "Total": 87.0,
+            "Men": 89.0,
+            "Women": 86.0,
+            "High": 88.0,
+            "Low": 90.0
+        },
+        "Consultation on rule-making": {
+            "Total": 8.3,
+            "Men": 8.3,
+            "Women": 8.3
+        },
+        "Voter turnout": {
+            "Total": 70.0,
+            "Men": 68.0,
+            "Women": 73.0,
+            "High": 79.0,
+            "Low": 56.0
+        },
+        "Life expectancy": {
+            "Total": 78.7,
+            "Men": 76.3,
+            "Women": 81.1
+        },
+        "Self-reported health": {
+            "Total": 90.0,
+            "Men": 90.0,
+            "Women": 89.0,
+            "High": 96.0,
+            "Low": 74.0
+        },
+        "Life satisfaction": {
+            "Total": 7.0,
+            "Men": 6.9,
+            "Women": 7.2,
+            "High": 7.4,
+            "Low": 6.1
+        },
+        "Assault rate": {
+            "Total": 1.5,
+            "Men": 1.7,
+            "Women": 1.3
+        },
+        "Homicide rate": {
+            "Total": 4.8,
+            "Men": 7.5,
+            "Women": 2.1
+        },
+        "Employees working very long hours": {
+            "Total": 11.13,
+            "Men": 15.5,
+            "Women": 6.49
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.27,
+            "Men": 14.39,
+            "Women": 14.12
+        }
+    },
+    "OTO": {
+        "Dwellings without basic facilities": {
+            "Total": 2.2
+        },
+        "Housing expenditure": {
+            "Total": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.6
+        },
+        "Household net adjusted disposable income": {
+            "Total": 23047.0,
+            "High": 44625.0,
+            "Low": 9156.0
+        },
+        "Household net financial wealth": {
+            "Total": 40516.0
+        },
+        "Employment rate": {
+            "Total": 66.0,
+            "Men": 72.0,
+            "Women": 60.0,
+            "High": 82.0,
+            "Low": 45.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.14,
+            "Men": 3.21,
+            "Women": 3.106932311,
+            "High": 1.78,
+            "Low": 5.35
+        },
+        "Personal earnings": {
+            "Total": 34466.0,
+            "Men": 39641.0,
+            "Women": 32275.0,
+            "High": 47324.0,
+            "Low": 22240.0
+        },
+        "Quality of support network": {
+            "Total": 90.0,
+            "Men": 89.0,
+            "Women": 90.0,
+            "High": 93.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 74.0,
+            "Men": 75.0,
+            "Women": 73.0
+        },
+        "Student skills": {
+            "Total": 497.0,
+            "Men": 492.0,
+            "Women": 501.0,
+            "High": 548.0,
+            "Low": 449.0
+        },
+        "Years in education": {
+            "Total": 16.5,
+            "Men": 17.2,
+            "Women": 17.8
+        },
+        "Air pollution": {
+            "Total": 21.0
+        },
+        "Water quality": {
+            "Total": 84.0,
+            "Men": 85.0,
+            "Women": 84.0,
+            "High": 85.0,
+            "Low": 86.0
+        },
+        "Consultation on rule-making": {
+            "Total": 7.3
+        },
+        "Voter turnout": {
+            "Total": 72.0,
+            "Men": 72.0,
+            "Women": 71.0,
+            "High": 77.0,
+            "Low": 66.0
+        },
+        "Life expectancy": {
+            "Total": 79.8,
+            "Men": 77.0,
+            "Women": 82.5
+        },
+        "Self-reported health": {
+            "Total": 69.0,
+            "Men": 71.0,
+            "Women": 66.0,
+            "High": 79.0,
+            "Low": 61.0
+        },
+        "Life satisfaction": {
+            "Total": 6.6,
+            "Men": 6.6,
+            "Women": 6.7,
+            "High": 7.1,
+            "Low": 6.2
+        },
+        "Assault rate": {
+            "Total": 4.0,
+            "Men": 4.4,
+            "Women": 3.6
+        },
+        "Homicide rate": {
+            "Total": 2.2,
+            "Men": 2.2,
+            "Women": 2.2
+        },
+        "Employees working very long hours": {
+            "Total": 8.76,
+            "Men": 12.08,
+            "Women": 4.93
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.87,
+            "Men": 15.01,
+            "Women": 14.64
+        }
+    },
+    "BRA": {
+        "Dwellings without basic facilities": {
+            "Total": 6.7,
+            "Men": 6.7,
+            "Women": 6.7
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Household net adjusted disposable income": {
+            "Total": 10225.0,
+            "Men": 10225.0,
+            "Women": 10225.0,
+            "High": 28543.0,
+            "Low": 2101.0
+        },
+        "Household net financial wealth": {
+            "Total": 5861.0,
+            "Men": 5861.0,
+            "Women": 5861.0
+        },
+        "Employment rate": {
+            "Total": 68.0,
+            "Men": 80.0,
+            "Women": 56.0,
+            "High": 86.0,
+            "Low": 62.0
+        },
+        "Job security": {
+            "Total": 14.0,
+            "Men": 14.0,
+            "Women": 14.2
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.02,
+            "Men": 3.08,
+            "Women": 2.896614094,
+            "High": 1.29,
+            "Low": 3.15
+        },
+        "Personal earnings": {
+            "Total": 10905.0,
+            "Men": 11866.0,
+            "Women": 10108.0,
+            "High": 13565.0,
+            "Low": 5557.0
+        },
+        "Quality of support network": {
+            "Total": 88.0,
+            "Men": 90.0,
+            "Women": 87.0,
+            "High": 91.0,
+            "Low": 88.0
+        },
+        "Educational attainment": {
+            "Total": 41.0,
+            "Men": 39.0,
+            "Women": 43.0
+        },
+        "Student skills": {
+            "Total": 401.0,
+            "Men": 399.0,
+            "Women": 403.0,
+            "High": 456.0,
+            "Low": 365.0
+        },
+        "Years in education": {
+            "Total": 16.3,
+            "Men": 16.0,
+            "Women": 16.5
+        },
+        "Air pollution": {
+            "Total": 19.0,
+            "Men": 19.0,
+            "Women": 19.0
+        },
+        "Water quality": {
+            "Total": 75.0,
+            "Men": 78.0,
+            "Women": 73.0,
+            "High": 88.0,
+            "Low": 78.0
+        },
+        "Consultation on rule-making": {
+            "Total": 4.0,
+            "Men": 4.0,
+            "Women": 4.0
+        },
+        "Voter turnout": {
+            "Total": 78.0,
+            "Men": 78.0,
+            "Women": 79.0,
+            "High": 81.0,
+            "Low": 80.0
+        },
+        "Life expectancy": {
+            "Total": 73.5,
+            "Men": 70.1,
+            "Women": 77.0
+        },
+        "Self-reported health": {
+            "Total": 69.0,
+            "Men": 72.0,
+            "Women": 67.0,
+            "High": 81.0,
+            "Low": 61.0
+        },
+        "Life satisfaction": {
+            "Total": 6.7,
+            "Men": 6.6,
+            "Women": 6.7,
+            "High": 7.1,
+            "Low": 6.3
+        },
+        "Assault rate": {
+            "Total": 7.9,
+            "Men": 7.5,
+            "Women": 8.2
+        },
+        "Homicide rate": {
+            "Total": 21.0,
+            "Men": 39.0,
+            "Women": 3.8
+        },
+        "Employees working very long hours": {
+            "Total": 12.5,
+            "Men": 15.47,
+            "Women": 8.78
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.84,
+            "Men": 14.99,
+            "Women": 14.61
+        }
+    },
+    "CHL": {
+        "Dwellings without basic facilities": {
+            "Total": 9.4,
+            "Men": 9.4,
+            "Women": 9.4
+        },
+        "Housing expenditure": {
+            "Total": 18.0,
+            "Men": 18.0,
+            "Women": 18.0
+        },
+        "Rooms per person": {
+            "Total": 1.3,
+            "Men": 1.3,
+            "Women": 1.3
+        },
+        "Household net adjusted disposable income": {
+            "Total": 11039.0,
+            "Men": 11039.0,
+            "Women": 11039.0,
+            "High": 31040.0,
+            "Low": 2392.0
+        },
+        "Household net financial wealth": {
+            "Total": 16972.0,
+            "Men": 16972.0,
+            "Women": 16972.0
+        },
+        "Employment rate": {
+            "Total": 61.0,
+            "Men": 74.0,
+            "Women": 49.0,
+            "High": 72.0,
+            "Low": 58.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.94,
+            "Men": 3.0,
+            "Women": 2.812070272,
+            "High": 2.53,
+            "Low": 1.92
+        },
+        "Personal earnings": {
+            "Total": 15820.0,
+            "Men": 17185.0,
+            "Women": 14441.0,
+            "High": 19901.0,
+            "Low": 8477.0
+        },
+        "Quality of support network": {
+            "Total": 82.0,
+            "Men": 79.0,
+            "Women": 85.0,
+            "High": 89.0,
+            "Low": 75.0
+        },
+        "Educational attainment": {
+            "Total": 71.0,
+            "Men": 72.0,
+            "Women": 71.0
+        },
+        "Student skills": {
+            "Total": 439.0,
+            "Men": 441.0,
+            "Women": 438.0,
+            "High": 498.0,
+            "Low": 399.0
+        },
+        "Years in education": {
+            "Total": 16.2,
+            "Men": 16.2,
+            "Women": 16.2
+        },
+        "Air pollution": {
+            "Total": 53.0,
+            "Men": 53.0,
+            "Women": 53.0
+        },
+        "Water quality": {
+            "Total": 77.0,
+            "Men": 79.0,
+            "Women": 76.0,
+            "High": 74.0,
+            "Low": 82.0
+        },
+        "Consultation on rule-making": {
+            "Total": 2.0,
+            "Men": 2.0,
+            "Women": 2.0
+        },
+        "Voter turnout": {
+            "Total": 88.0,
+            "Men": 86.0,
+            "Women": 89.0,
+            "High": 90.0,
+            "Low": 92.0
+        },
+        "Life expectancy": {
+            "Total": 78.3,
+            "Men": 75.7,
+            "Women": 81.0
+        },
+        "Self-reported health": {
+            "Total": 59.0,
+            "Men": 67.0,
+            "Women": 51.0,
+            "High": 69.0,
+            "Low": 49.0
+        },
+        "Life satisfaction": {
+            "Total": 6.5,
+            "Men": 6.7,
+            "Women": 6.4,
+            "High": 7.4,
+            "Low": 6.0
+        },
+        "Assault rate": {
+            "Total": 8.3,
+            "Men": 8.4,
+            "Women": 8.1
+        },
+        "Homicide rate": {
+            "Total": 3.7,
+            "Men": 6.5,
+            "Women": 1.0
+        },
+        "Employees working very long hours": {
+            "Total": 16.32,
+            "Men": 19.98,
+            "Women": 9.78
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 13.66,
+            "Men": 13.86,
+            "Women": 13.34
+        }
+    },
+    "EST": {
+        "Dwellings without basic facilities": {
+            "Total": 9.6,
+            "Men": 9.6,
+            "Women": 9.6
+        },
+        "Housing expenditure": {
+            "Total": 19.0,
+            "Men": 19.0,
+            "Women": 19.0
+        },
+        "Rooms per person": {
+            "Total": 1.6,
+            "Men": 1.6,
+            "Women": 1.6
+        },
+        "Household net adjusted disposable income": {
+            "Total": 12800.0,
+            "Men": 12800.0,
+            "Women": 12800.0,
+            "High": 24930.0,
+            "Low": 4881.0
+        },
+        "Household net financial wealth": {
+            "Total": 8802.0,
+            "Men": 8802.0,
+            "Women": 8802.0
+        },
+        "Employment rate": {
+            "Total": 65.0,
+            "Men": 68.0,
+            "Women": 63.0,
+            "High": 84.0,
+            "Low": 28.0
+        },
+        "Job security": {
+            "Total": 10.7,
+            "Men": 11.6,
+            "Women": 9.9
+        },
+        "Long-term unemployment rate": {
+            "Total": 7.06,
+            "Men": 7.79,
+            "Women": 6.339627218,
+            "High": 3.98,
+            "Low": 13.57
+        },
+        "Personal earnings": {
+            "Total": 17323.0,
+            "Men": 18810.0,
+            "Women": 15754.0,
+            "High": 21851.0,
+            "Low": 9397.0
+        },
+        "Quality of support network": {
+            "Total": 86.0,
+            "Men": 84.0,
+            "Women": 87.0,
+            "High": 91.0,
+            "Low": 84.0
+        },
+        "Educational attainment": {
+            "Total": 89.0,
+            "Men": 86.0,
+            "Women": 92.0
+        },
+        "Student skills": {
+            "Total": 514.0,
+            "Men": 508.0,
+            "Women": 520.0,
+            "High": 549.0,
+            "Low": 485.0
+        },
+        "Years in education": {
+            "Total": 17.4,
+            "Men": 16.7,
+            "Women": 18.1
+        },
+        "Air pollution": {
+            "Total": 9.0,
+            "Men": 9.0,
+            "Women": 9.0
+        },
+        "Water quality": {
+            "Total": 75.0,
+            "Men": 75.0,
+            "Women": 75.0,
+            "High": 81.0,
+            "Low": 77.0
+        },
+        "Consultation on rule-making": {
+            "Total": 3.3,
+            "Men": 3.3,
+            "Women": 3.3
+        },
+        "Voter turnout": {
+            "Total": 64.0,
+            "Men": 60.0,
+            "Women": 66.0,
+            "High": 68.0,
+            "Low": 56.0
+        },
+        "Life expectancy": {
+            "Total": 76.3,
+            "Men": 71.2,
+            "Women": 81.3
+        },
+        "Self-reported health": {
+            "Total": 51.0,
+            "Men": 54.0,
+            "Women": 50.0,
+            "High": 75.0,
+            "Low": 39.0
+        },
+        "Life satisfaction": {
+            "Total": 5.4,
+            "Men": 5.2,
+            "Women": 5.5,
+            "High": 5.9,
+            "Low": 5.2
+        },
+        "Assault rate": {
+            "Total": 5.5,
+            "Men": 5.4,
+            "Women": 5.5
+        },
+        "Homicide rate": {
+            "Total": 5.2,
+            "Men": 8.9,
+            "Women": 2.1
+        },
+        "Employees working very long hours": {
+            "Total": 4.1,
+            "Men": 5.62,
+            "Women": 2.72
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.2,
+            "Men": 14.54,
+            "Women": 13.85
+        }
+    },
+    "ISR": {
+        "Dwellings without basic facilities": {
+            "Total": 3.8,
+            "Men": 3.8,
+            "Women": 3.8
+        },
+        "Housing expenditure": {
+            "Total": 21.0,
+            "Men": 21.0,
+            "Women": 21.0
+        },
+        "Rooms per person": {
+            "Total": 1.1,
+            "Men": 1.1,
+            "Women": 1.1
+        },
+        "Household net adjusted disposable income": {
+            "Total": 19120.0,
+            "Men": 19120.0,
+            "Women": 19120.0,
+            "High": 40760.0,
+            "Low": 5237.0
+        },
+        "Household net financial wealth": {
+            "Total": 49240.0,
+            "Men": 49240.0,
+            "Women": 49240.0
+        },
+        "Employment rate": {
+            "Total": 61.0,
+            "Men": 64.0,
+            "Women": 57.0,
+            "High": 82.0,
+            "Low": 31.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 1.13,
+            "Men": 1.19,
+            "Women": 1.06208222,
+            "High": 0.75,
+            "Low": 1.96
+        },
+        "Personal earnings": {
+            "Total": 28629.0,
+            "Men": 31995.0,
+            "Women": 23748.0,
+            "High": 39324.0,
+            "Low": 13691.0
+        },
+        "Quality of support network": {
+            "Total": 89.0,
+            "Men": 89.0,
+            "Women": 90.0,
+            "High": 91.0,
+            "Low": 67.0
+        },
+        "Educational attainment": {
+            "Total": 82.0,
+            "Men": 81.0,
+            "Women": 83.0
+        },
+        "Student skills": {
+            "Total": 459.0,
+            "Men": 452.0,
+            "Women": 465.0,
+            "High": 514.0,
+            "Low": 401.0
+        },
+        "Years in education": {
+            "Total": 15.8,
+            "Men": 15.5,
+            "Women": 16.2
+        },
+        "Air pollution": {
+            "Total": 23.0,
+            "Men": 23.0,
+            "Women": 23.0
+        },
+        "Water quality": {
+            "Total": 66.0,
+            "Men": 66.0,
+            "Women": 65.0,
+            "High": 66.0,
+            "Low": 69.0
+        },
+        "Consultation on rule-making": {
+            "Total": 2.5,
+            "Men": 2.5,
+            "Women": 2.5
+        },
+        "Voter turnout": {
+            "Total": 65.0,
+            "Men": 64.0,
+            "Women": 66.0,
+            "High": 71.0,
+            "Low": 63.0
+        },
+        "Life expectancy": {
+            "Total": 81.8,
+            "Men": 79.9,
+            "Women": 83.6
+        },
+        "Self-reported health": {
+            "Total": 82.0,
+            "Men": 84.0,
+            "Women": 80.0,
+            "High": 96.0,
+            "Low": 88.0
+        },
+        "Life satisfaction": {
+            "Total": 7.1,
+            "Men": 7.2,
+            "Women": 7.0,
+            "High": 7.4,
+            "Low": 6.3
+        },
+        "Assault rate": {
+            "Total": 6.5,
+            "Men": 5.9,
+            "Women": 6.8
+        },
+        "Homicide rate": {
+            "Total": 2.1,
+            "Men": 3.4,
+            "Women": 0.8
+        },
+        "Employees working very long hours": {
+            "Total": 17.58,
+            "Men": 26.91,
+            "Women": 7.91
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 13.81,
+            "Men": 14.01,
+            "Women": 13.5
+        }
+    },
+    "RUS": {
+        "Dwellings without basic facilities": {
+            "Total": 2.8,
+            "Men": 2.8,
+            "Women": 2.8
+        },
+        "Housing expenditure": {
+            "Total": 11.0,
+            "Men": 11.0,
+            "Women": 11.0
+        },
+        "Rooms per person": {
+            "Total": 0.9,
+            "Men": 0.9,
+            "Women": 0.9
+        },
+        "Household net adjusted disposable income": {
+            "Total": 15286.0,
+            "Men": 15286.0,
+            "Women": 15286.0,
+            "High": 37269.0,
+            "Low": 4153.0
+        },
+        "Household net financial wealth": {
+            "Total": 15142.0,
+            "Men": 15142.0,
+            "Women": 15142.0
+        },
+        "Employment rate": {
+            "Total": 68.0,
+            "Men": 72.0,
+            "Women": 64.0,
+            "High": 83.0,
+            "Low": 45.0
+        },
+        "Job security": {
+            "Total": 10.5,
+            "Men": 10.5,
+            "Women": 10.4
+        },
+        "Long-term unemployment rate": {
+            "Total": 2.17,
+            "Men": 2.28,
+            "Women": 2.061322143,
+            "High": 1.33,
+            "Low": 3.53
+        },
+        "Personal earnings": {
+            "Total": 19719.0,
+            "Men": 21399.0,
+            "Women": 17837.0,
+            "High": 24971.0,
+            "Low": 10886.0
+        },
+        "Quality of support network": {
+            "Total": 87.0,
+            "Men": 87.0,
+            "Women": 88.0,
+            "High": 89.0,
+            "Low": 83.0
+        },
+        "Educational attainment": {
+            "Total": 91.0,
+            "Men": 90.0,
+            "Women": 93.0
+        },
+        "Student skills": {
+            "Total": 469.0,
+            "Men": 461.0,
+            "Women": 476.0,
+            "High": 516.0,
+            "Low": 431.0
+        },
+        "Years in education": {
+            "Total": 16.6,
+            "Men": 16.0,
+            "Women": 17.2
+        },
+        "Air pollution": {
+            "Total": 16.0,
+            "Men": 16.0,
+            "Women": 16.0
+        },
+        "Water quality": {
+            "Total": 49.0,
+            "Men": 49.0,
+            "Women": 49.0,
+            "High": 39.0,
+            "Low": 58.0
+        },
+        "Consultation on rule-making": {
+            "Total": 2.5,
+            "Men": 2.5,
+            "Women": 2.5
+        },
+        "Voter turnout": {
+            "Total": 65.0,
+            "Men": 61.0,
+            "Women": 69.0,
+            "High": 70.0,
+            "Low": 66.0
+        },
+        "Life expectancy": {
+            "Total": 69.8,
+            "Men": 64.0,
+            "Women": 75.6
+        },
+        "Self-reported health": {
+            "Total": 37.0,
+            "Men": 45.0,
+            "Women": 33.0,
+            "High": 47.0,
+            "Low": 29.0
+        },
+        "Life satisfaction": {
+            "Total": 5.6,
+            "Men": 5.6,
+            "Women": 5.6,
+            "High": 6.0,
+            "Low": 5.4
+        },
+        "Assault rate": {
+            "Total": 2.8,
+            "Men": 3.5,
+            "Women": 2.3
+        },
+        "Homicide rate": {
+            "Total": 10.2,
+            "Men": 16.6,
+            "Women": 4.9
+        },
+        "Employees working very long hours": {
+            "Total": 0.16,
+            "Men": 0.25,
+            "Women": 0.08
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.84,
+            "Men": 14.99,
+            "Women": 14.61
+        }
+    },
+    "SVN": {
+        "Dwellings without basic facilities": {
+            "Total": 0.5,
+            "Men": 0.5,
+            "Women": 0.5
+        },
+        "Housing expenditure": {
+            "Total": 20.0,
+            "Men": 20.0,
+            "Women": 20.0
+        },
+        "Rooms per person": {
+            "Total": 1.4,
+            "Men": 1.4,
+            "Women": 1.4
+        },
+        "Household net adjusted disposable income": {
+            "Total": 19119.0,
+            "Men": 19119.0,
+            "Women": 19119.0,
+            "High": 32600.0,
+            "Low": 9018.0
+        },
+        "Household net financial wealth": {
+            "Total": 18065.0,
+            "Men": 18065.0,
+            "Women": 18065.0
+        },
+        "Employment rate": {
+            "Total": 64.0,
+            "Men": 68.0,
+            "Women": 61.0,
+            "High": 84.0,
+            "Low": 39.0
+        },
+        "Job security": {
+            "Total": 7.7,
+            "Men": 6.7,
+            "Women": 8.7
+        },
+        "Long-term unemployment rate": {
+            "Total": 3.61,
+            "Men": 3.68,
+            "Women": 3.524123542,
+            "High": 2.16,
+            "Low": 6.25
+        },
+        "Personal earnings": {
+            "Total": 32480.0,
+            "Men": 35169.0,
+            "Women": 28784.0,
+            "High": 41756.0,
+            "Low": 19185.0
+        },
+        "Quality of support network": {
+            "Total": 92.0,
+            "Men": 93.0,
+            "Women": 91.0,
+            "High": 95.0,
+            "Low": 86.0
+        },
+        "Educational attainment": {
+            "Total": 83.0,
+            "Men": 85.0,
+            "Women": 81.0
+        },
+        "Student skills": {
+            "Total": 499.0,
+            "Men": 488.0,
+            "Women": 510.0,
+            "High": 552.0,
+            "Low": 454.0
+        },
+        "Years in education": {
+            "Total": 18.4,
+            "Men": 17.6,
+            "Women": 19.2
+        },
+        "Air pollution": {
+            "Total": 26.0,
+            "Men": 26.0,
+            "Women": 26.0
+        },
+        "Water quality": {
+            "Total": 87.0,
+            "Men": 88.0,
+            "Women": 86.0,
+            "High": 91.0,
+            "Low": 84.0
+        },
+        "Consultation on rule-making": {
+            "Total": 10.3,
+            "Men": 10.3,
+            "Women": 10.3
+        },
+        "Voter turnout": {
+            "Total": 66.0,
+            "Men": 66.0,
+            "Women": 65.0,
+            "High": 75.0,
+            "Low": 62.0
+        },
+        "Life expectancy": {
+            "Total": 80.1,
+            "Men": 76.8,
+            "Women": 83.3
+        },
+        "Self-reported health": {
+            "Total": 60.0,
+            "Men": 63.0,
+            "Women": 57.0,
+            "High": 75.0,
+            "Low": 45.0
+        },
+        "Life satisfaction": {
+            "Total": 6.1,
+            "Men": 6.2,
+            "Women": 5.9,
+            "High": 7.1,
+            "Low": 5.7
+        },
+        "Assault rate": {
+            "Total": 3.9,
+            "Men": 3.2,
+            "Women": 4.5
+        },
+        "Homicide rate": {
+            "Total": 0.7,
+            "Men": 0.7,
+            "Women": 0.8
+        },
+        "Employees working very long hours": {
+            "Total": 5.55,
+            "Men": 7.93,
+            "Women": 2.95
+        },
+        "Time devoted to leisure and personal care": {
+            "Total": 14.62,
+            "Men": 15.08,
+            "Women": 14.12
+        }
+    }
+}
