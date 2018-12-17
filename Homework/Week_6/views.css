@@ -91,3 +91,14 @@ p
 .details{
   color:white;
 }
+.leg_text {
+  font: 10px verdana;
+}
+.titles {
+  font: 13px verdana;
+  font-weight: bold;
+}
+.legend {
+  fill: white;
+  stroke: #000;
+}
